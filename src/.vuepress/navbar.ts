@@ -2,14 +2,16 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  "/MIS/",
+  "/FIT/",
+  "/elective/",
   {
-    text: "指南",
+    text: "实用链接",
     icon: "lightbulb",
     prefix: "/guide/",
     children: [
       {
-        text: "Bar",
+        text: "选课指南",
         icon: "lightbulb",
         prefix: "bar/",
         children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
@@ -23,8 +25,14 @@ export default navbar([
     ],
   },
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "技术支持文档",
+    icon: "laptop-code",
+    prefix: "foo/",
+    children:[]
   },
+  // {
+  //   text: "V2 文档",
+  //   icon: "book",
+  //   link: "https://theme-hope.vuejs.press/zh/",
+  // },
 ]);

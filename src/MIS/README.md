@@ -1,7 +1,7 @@
 ---
-title: 主要功能与配置演示
+title: MIS方向
 index: false
-icon: laptop-code
+icon: "book"
 category:
   - 使用指南
 ---

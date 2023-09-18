@@ -2,12 +2,11 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
-    "",
     {
-      text: "案例",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      text: "管理信息系统方向",
+      icon: "book",
+      prefix: "MIS/",
+      link: "MIS/",
       children: "structure",
     },
     {
