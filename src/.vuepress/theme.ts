@@ -24,6 +24,8 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
+  breadcrumb: false,
+
   footer: "默认页脚",
 
   displayFooter: true,

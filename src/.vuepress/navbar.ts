@@ -1,9 +1,16 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  "/",
-  "/MIS/",
-  "/FIT/",
+  {
+    text: "MIS方向",
+    link: "/MIS/",
+    icon: "book"
+  },
+  {
+    text: "FIT方向",
+    link: "/FIT/",
+    icon: "book"
+  },
   "/elective/",
   {
     text: "实用链接",
@@ -28,7 +35,7 @@ export default navbar([
     text: "技术支持文档",
     icon: "laptop-code",
     prefix: "foo/",
-    children:[]
+    children: []
   },
   // {
   //   text: "V2 文档",
