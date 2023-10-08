@@ -38,14 +38,28 @@ export default sidebar({
       text: "必修课程",
       icon: "book",
       prefix: "Core_Course/",
-      children:"structure"
+      children: "structure"
     },
     {
       text: "专属选修课程",
       icon: "book",
       prefix: "FIT_Elective/",
       children: "structure"
-    }
-
+    },
+  ],
+  "/elective/":[
+    "/elective/",
+    {
+      text: "较易选修",
+      icon: "book",
+      prefix: "IS5/",
+      children: "structure"
+    },
+    {
+      text: "较难选修",
+      icon: "book",
+      prefix: "IS6/",
+      children: "structure"
+    },
   ]
 });

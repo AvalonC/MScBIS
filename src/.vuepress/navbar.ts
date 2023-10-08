@@ -11,7 +11,12 @@ export default navbar([
     link: "/FIT/",
     icon: "book"
   },
-  "/elective/",
+  {
+    text: "共享选修课池",
+    link: "/elective/",
+    icon: "book"
+  },
+  
   {
     text: "实用链接",
     icon: "lightbulb",

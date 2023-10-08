@@ -91,6 +91,9 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
+  blog: {
+    
+  },
 
     // uncomment these if you want a pwa
     // pwa: {
