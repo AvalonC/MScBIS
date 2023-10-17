@@ -2,7 +2,7 @@
 title: 共享选修课池
 icon: "book"
 category:
- - 课程评价
+ - 课程相关
 tag:
  - 公共选修课程
 ---

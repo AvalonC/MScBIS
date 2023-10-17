@@ -3,7 +3,7 @@ title: 金融与智能科技方向
 index: false
 icon: "book"
 category:
-  - 方向介绍
+  - 专业方向介绍
 ---
 
 **分流领导：** [马健（Prof. MA Jian）](https://www.cb.cityu.edu.hk/staff/isjian/)

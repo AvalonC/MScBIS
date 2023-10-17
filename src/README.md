@@ -259,7 +259,7 @@ highlights:
   #       link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
 copyright: false
-footer: 此为评估版本 | <a href = "index.html">关于本站</a>
+footer: 此为评估版本 · <a href = "General/about">关于本站</a> · <a href ="General/appreciate">致谢</a> · <a href ="General/recurit"> 招贤纳士 </a>
 ---
 
 这是项目主页的案例。你可以在这里放置你的主体内容。

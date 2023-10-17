@@ -3,7 +3,7 @@ title: 管理信息系统方向
 index: false
 icon: "book"
 category:
-  - 方向介绍
+  - 专业方向介绍
 ---
 
 **分流领导：** [谢俊霖（Prof. SIA Choon Ling）](https://www.cb.cityu.edu.hk/staff/iscl/)
