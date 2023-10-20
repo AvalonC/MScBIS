@@ -6,7 +6,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "BIS Navigator V2",
-  description: "vuepress-theme-hope 的文档演示",
+  description: "BIS Navigator V2",
 
   theme,
 

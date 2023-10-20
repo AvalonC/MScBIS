@@ -32,29 +32,34 @@ export default navbar([
         ],
       },
       {
-        text: "学在城大 Learning@CityU",
+        text: "选课相关",
         prefix: "CourseEnroll/",
         children: [
           { text: "选课基本流程", icon: "ellipsis", link: "how_to" },
-          { text: "流程有用信息", icon: "ellipsis", link: "useful_data" },
-          { text: "选课界面说明", icon: "circle-info", link: "aims_simluation" },
-          { text: "选课数量安排", icon: "circle-info", link: "time_arrangement" }
+          { text: "流程有用信息", icon: "circle-info", link: "useful_data" },
+          { text: "选课数量安排", icon: "ellipsis", link: "time_arrangement" }
         ]
       },
       {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
-      },
+        text: "学在城大 Learning@CityU",
+        prefix: "Learning/",
+        children: [
+          { text: "BIS资源网盘", icon: "box-archive", link: "BIS_resource" },
+          { text: "转换专业认证", icon: "clipboard-check", link: "trans_mse_tutorial" }
+        ]
+      }
     ],
   },
   {
     text: "技术支持文档",
     icon: "laptop-code",
-    prefix: "foo/",
-    children: []
-  },
+    prefix: "Tech/",
+    children: [
+      { text: "信息技术服务", icon: "circle-info", link: "it_services" },
+      { text: "在线学习平台Canvas", icon: "circle-info", link: "Canvas" },
+      { text: "在线综合平台CityU Portal", icon: "circle-info", link: "CityU_Portal" }
+    ]
+  }
   // {
   //   text: "V2 文档",
   //   icon: "book",
