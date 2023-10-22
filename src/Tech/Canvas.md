@@ -1,6 +1,6 @@
 ---
 title: Canvas入门
-sidebar: 
+sidebar: false
 ---
 
 ![Canvas](/Canvas.png)

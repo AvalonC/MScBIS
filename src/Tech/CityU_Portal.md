@@ -1,7 +1,7 @@
 ---
 title: CityU Portal入门
 author: CityU ESO
-sidebar: 'auto'
+sidebar: false
 ---
 ![CityU Portal](/CityUPortal.png)
 
