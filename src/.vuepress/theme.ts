@@ -20,6 +20,8 @@ export default hopeTheme({
   // navbar
   navbar,
 
+  repoDisplay: false,
+
   // sidebar
   sidebar,
 
@@ -37,7 +39,7 @@ export default hopeTheme({
 
   // page meta
   metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
+    editLink: "在 GitHub 上编辑此页(仅限维护组)",
   },
 
   plugins: {

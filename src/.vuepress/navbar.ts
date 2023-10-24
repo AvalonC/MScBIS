@@ -2,6 +2,11 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   {
+    text: "首页",
+    link: "/",
+    icon: "home"
+  },
+  {
     text: "MIS方向",
     link: "/MIS/",
     icon: "book"
@@ -28,7 +33,7 @@ export default navbar([
           { text: "香港城市大学", icon: "circle-info", link: "https://www.cityu.edu.hk" },
           { text: "商学院", icon: "circle-info", link: "https://www.cb.cityu.edu.hk" },
           { text: "资讯系统学系", icon: "circle-info", link: "https://www.cb.cityu.edu.hk/is" },
-          { text: "项目官网", icon: "circle-info", link: "https://www.cb.cityu.edu.hk/is/msbis" }
+          { text: "项目官网", icon: "circle-info", link: "https://www.cb.cityu.edu.hk/is/postgraduate-degrees/taught-postgraduate/msc-business-information-systems" }
         ],
       },
       {

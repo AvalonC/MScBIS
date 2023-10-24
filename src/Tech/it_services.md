@@ -47,37 +47,31 @@ CityU为所有学生提供Grammarly订阅，有需要学生只需提交工单即
 请注意学术写作中语法和表达是非常重要且基本的一环，建议所有学生安装Grammarly到PC上
 :::
 
-## 资源预约系统（除图书馆）
-
-所有学生可以通过此系统预约小组学习室，用以开展组会或讨论。所有小组学习室均位于杨建文学术楼五层。
-
-[CityU Centralised Booking System](https://booking.cityu.edu.hk/)
+## 中心化资源预约系统
 
 ::: warning 必须预约
 所有学习室均有校卡门锁，必须预约才能解锁
 :::
 
-## 资源预约系统（图书馆）
+所有学生可以通过此系统预约小组学习室，用以开展组会或讨论。
 
-所有学生可以通过此系统预约图书馆资源，包括：
+所有小组学习室均位于杨建文学术楼五层。
+
+所有学生亦可以通过此系统预约图书馆资源，包括：
 
 - 小组学习室（位于人文学堂）
 - 小型戏院
 - 个人独立单间
 - ...
 
-[CityU Library Facilities Booking System](http://libbs.cityu.edu.hk/)
+所有设施位于杨建文学术楼3层的邵逸夫图书馆内。
 
-所有设施位于杨建文学术楼3层的邵逸夫图书馆内
-
-::: warning 必须预约
-所有设施均有校卡门锁，必须预约才能解锁
-:::
+[CityU Centralised Booking System](https://booking.cityu.edu.hk/)
 
 ## 运动设施预约系统
 
 当你选中部分体育课后，可通过此系统预约场所进行自我锻炼
 
-[CityU Sports Facilities Booking System](sportsbooking.cityu.edu.hk/)
+[CityU Sports Facilities Booking System](https://sportsbooking.cityu.edu.hk/)
 
 设施遍布九龙，可用的设施取决于你所选的体育课程。
