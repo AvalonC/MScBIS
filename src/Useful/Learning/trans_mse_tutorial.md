@@ -1,6 +1,9 @@
 ---
 title: 转换为管理科学与工程
 sidebar: false
+comment: false
+prev: false
+next: false
 ---
 ::: danger 仅供参考
 此材料的可用性不能做永久保证，申请前应当与programme leader确认。

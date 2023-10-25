@@ -58,7 +58,7 @@ export default navbar([
   {
     text: "技术支持文档",
     icon: "laptop-code",
-    prefix: "Tech/",
+    prefix: "/Tech/",
     children: [
       { text: "信息技术服务", icon: "circle-info", link: "it_services" },
       { text: "在线学习平台Canvas", icon: "circle-info", link: "Canvas" },

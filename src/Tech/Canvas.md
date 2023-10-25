@@ -1,6 +1,11 @@
 ---
 title: Canvas入门
 sidebar: false
+comment: false
+tag:
+ - 技术支持
+prev: false
+next: false
 ---
 
 ![Canvas](/Canvas.png)

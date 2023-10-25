@@ -5610,6 +5610,20 @@ vuepress-plugin-blog2@2.0.0-beta.237:
     vue-router "^4.2.4"
     vuepress-shared "2.0.0-beta.237"
 
+vuepress-plugin-blog2@^2.0.0-beta.239:
+  version "2.0.0-beta.239"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-blog2/-/vuepress-plugin-blog2-2.0.0-beta.239.tgz#3af4d930a02add7b3edd58b05e8f07de0df33290"
+  integrity sha512-mQTsPxwWAgRHNaTkADewWQ4I+JmVwpU26yfb41G4XfL+SqtANzN2VrQOOhz0aaU1hc0yu6LO3t7b7bBRon5sLQ==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.67"
+    "@vuepress/core" "2.0.0-beta.67"
+    "@vuepress/shared" "2.0.0-beta.67"
+    "@vuepress/utils" "2.0.0-beta.67"
+    chokidar "^3.5.3"
+    vue "^3.3.6"
+    vue-router "^4.2.5"
+    vuepress-shared "2.0.0-beta.239"
+
 vuepress-plugin-comment2@2.0.0-beta.237:
   version "2.0.0-beta.237"
   resolved "https://registry.npmmirror.com/vuepress-plugin-comment2/-/vuepress-plugin-comment2-2.0.0-beta.237.tgz#2b2669691dd40cd17417a3b5b61594f53fc8474f"

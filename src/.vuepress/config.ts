@@ -12,6 +12,7 @@ export default defineUserConfig({
   theme,
 
   plugins: [
+
     searchProPlugin({
       // 索引全部内容
       indexContent: true,
@@ -30,5 +31,5 @@ export default defineUserConfig({
   ],
 
   // Enable it with pwa
-  // shouldPrefetch: false,
+  shouldPrefetch: false,
 });

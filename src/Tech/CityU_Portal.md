@@ -1,7 +1,12 @@
 ---
 title: CityU Portal入门
 author: CityU ESO
+comment: false
 sidebar: false
+tag:
+ - 技术支持
+prev: false
+next: false
 ---
 ![CityU Portal](/CityUPortal.png)
 

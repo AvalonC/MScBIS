@@ -2,6 +2,11 @@
 title: BIS资源盘
 sidebar: false
 author: 'BIS Alumni'
+comment: false
+tag:
+ - 资源
+prev: false
+next: false
 ---
 
 此为BIS常用资源站

@@ -1,6 +1,11 @@
 ---
 title: 有用信息
 sidebar: false
+comment: false
+tag:
+ - 选课
+prev: false
+next: false
 ---
 
 ::: warning 更新速度不及学校

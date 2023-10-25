@@ -1,6 +1,9 @@
 ---
 title: 致谢
 sidebar: false
+comment: false
+prev: false
+next: false
 ---
 ![Master of Science in Business Information Systems](/BISlogo.jpg)
 

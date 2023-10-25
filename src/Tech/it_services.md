@@ -1,6 +1,11 @@
 ---
 title: CityU信息技术服务
 sidebar: false
+comment: false
+tag:
+ - 技术支持
+prev: false
+next: false
 ---
 
 这篇文档将简单的介绍CityU提供的各类服务，供你在CityU期间高效便捷的完成所有任务。

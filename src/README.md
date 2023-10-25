@@ -19,7 +19,7 @@ actions:
   - text: MIS方向💻
     link: ./MIS/
 
-  - text: FIT方向ℹ️
+  - text: FIT方向🖥️
     link: ./FIT/
 
 highlights:

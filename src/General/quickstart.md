@@ -2,6 +2,8 @@
 title: 快速开始
 sidebar: false
 comment: false
+prev: false
+next: false
 ---
 
 Hello！欢迎访问此站📚

@@ -1,6 +1,11 @@
 ---
 title: 选课数量安排
 sidebar: false
+comment: false
+tag:
+ - 选课
+prev: false
+next: false
 ---
 
 这篇文档将简单的描述选课与毕业时间的关系。
