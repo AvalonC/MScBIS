@@ -6,7 +6,7 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "MScBIS",
+    name: "BIS Navigator",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -31,11 +31,11 @@ export default hopeTheme({
 
   displayFooter: true,
 
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/demo/encrypt.html": ["1234"],
+  //   },
+  // },
 
   // page meta
   metaLocales: {
