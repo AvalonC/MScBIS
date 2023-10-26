@@ -1,13 +1,9 @@
 // you can change colors here
 $theme-color: #b01861;
 @font-face {
-    font-family: "SourceHansansCN-Medium";
-    src: url(/assets/font/SOURCEHANSANSCN-MEDIUM.OTF);
+    font-family: "HarmonyOSHans-Medium";
+    src: url(/assets/fonts/HarmonyOSHans-Medium.woff2);
 }
-@font-face {
-    font-family: "SourceHanserifCN-Medium";
-    src: url(/assets/font/SOURCEHANSERIFCN-MEDIUM.OTF);
-}
-$font-family:  "SourceHansansCN-Medium";
-$font-family-heading: "SourceHanserifCN-Medium";
-$font-family-mono:  "SourceHansansCN-Medium";
+$font-family: "HarmonyOSHans-Medium, Microsoft Ya Hei";
+$font-family-heading: "HarmonyOSHans-Medium";
+$font-family-mono:  "HarmonyOSHans-Medium"
