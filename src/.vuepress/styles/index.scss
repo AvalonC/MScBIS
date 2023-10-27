@@ -1,4 +1,48 @@
 // place your custom styles here
-.hide-in-pad{
+#main-title {
+    background: linear-gradient(79.5deg, var(--theme-color-light), var(--theme-color) 30%, #FADBE8 100%);
+    margin: 0.5rem 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bold;
+    font-size: 3.6rem;
+    font-family: var(--font-family);
+    line-height: 1.5;
+    -webkit-text-fill-color: transparent;
+}
+
+.theme-hope-content {
+    background-image: url(https://i.niupic.com/images/2023/06/18/blGg.webp);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 13%;
+}
+
+.vp-sidebar-group .vp-sidebar-link {
+    border-radius: 0.5rem;
+}
+
+.vp-sidebar-group .vp-sidebar-link:hover {
+    box-shadow: 0 2px 12px 0 var(--card-shadow);
+    background-color: transparent;
+    transition: transform var(--transform-transition);
+    transform: translate(-2px, -2px)
+}
+
+.hide-in-pad {
     display: contents !important;
+}
+
+.hint-container {
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: .3s;
+    transition-property: box-shadow, transform
+}
+
+.hint-container:hover {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
 }

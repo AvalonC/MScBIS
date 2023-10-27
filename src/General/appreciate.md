@@ -78,3 +78,7 @@ Aaron
 ## Z
 
 张文嵩, 张小驰, 张潆尹, 郑綦, 郑茜, 周琳英, 周舒雯, 朱薛琰, 郑炳泷, 周怡, 邹韧琦, 张恩琪, 张娜
+
+## 特别鸣谢
+
+![商学院](https://template.cityu.edu.hk/template/logo/cb/cb_logo_eng_cmyk.svg =x80)  ![资讯系统学系](https://template.cityu.edu.hk/template/logo/is/is_logo_eng_cmyk.svg =x80)

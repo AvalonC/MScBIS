@@ -1,7 +1,6 @@
 ---
 home: true
 icon: home
-title: 项目主页
 heroImage: /logo.png
 heroFullScreen: true
 bgImage: /bg1.svg
