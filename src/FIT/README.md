@@ -8,7 +8,16 @@ prev: false
 next: false
 ---
 
-**分流领导：** [马健（Prof. MA Jian）](https://www.cb.cityu.edu.hk/staff/isjian/)
+**分流领导：**
+
+```card
+{
+  "title": "马健(Prof. MA Jian)",
+  "desc": "Professor",
+  "logo": "https://www.cb.cityu.edu.hk/portfolio/photos/xisjian.jpg.pagespeed.ic.6z5I8vEWtS.webp",
+  "link": "https://www.cb.cityu.edu.hk/People-and-Research/People/People-Details?eid=isjian"
+}
+```
 
 ## 培养目标
 

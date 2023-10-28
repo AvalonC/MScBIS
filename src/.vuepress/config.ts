@@ -11,7 +11,10 @@ export default defineUserConfig({
   theme,
   plugins: [
     searchProPlugin({
-      indexContent: true
+      // 索引全部内容
+      indexContent: true,
+      hotReload: true,
+      // 为分类和标签添加索引
     }),
   ],
 

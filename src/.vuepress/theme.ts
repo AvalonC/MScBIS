@@ -62,23 +62,27 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       attrs: true,
+      card: true,
       chart: false,
       codetabs: false,
-      demo: true,
-      echarts: true,
+      demo: false,
+      echarts: false,
       figure: true,
       flowchart: false,
       gfm: true,
-      imgLazyload: false,
+      imgLazyload: true,
       imgSize: true,
       include: true,
-      katex: true,
-      mark: true,
-      mermaid: true,
+      katex: false,
+      mark: false,
+      mermaid: false,
+      revealJs: {
+        plugins: ["zoom", "highlight", "search"],
+        themes: ["sky"]
+      },
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: ["highlight", "math", "search", "notes", "zoom"],
       stylize: [
         {
           matcher: "Recommended",
@@ -92,10 +96,10 @@ export default hopeTheme({
           },
         },
       ],
-      sub: true,
+      sub: false,
       sup: true,
       tabs: true,
-      vPre: true,
+      vPre: false,
       vuePlayground: false,
     },
 
@@ -105,8 +109,8 @@ export default hopeTheme({
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
-      update:"hint",
-      themeColor:"#b01861",
+      update: "hint",
+      themeColor: "#b01861",
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
         statusBarColor: "black",

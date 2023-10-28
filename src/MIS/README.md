@@ -6,7 +6,16 @@ category:
   - 专业方向介绍
 ---
 
-**分流领导：** [谢俊霖（Prof. SIA Choon Ling）](https://www.cb.cityu.edu.hk/staff/iscl/)
+**分流领导：**
+
+```card
+{
+  "title": "谢俊霖（Prof. SIA Choon Ling）",
+  "desc": "Professor",
+  "logo": "https://www.cb.cityu.edu.hk/portfolio/photos/xiscl.JPG.pagespeed.ic.DHIQdyaYha.webp",
+  "link": "https://www.cb.cityu.edu.hk/People-and-Research/People/People-Details?eid=iscl"
+}
+```
 
 ## 培养目标
 
