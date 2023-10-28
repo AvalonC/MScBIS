@@ -11,6 +11,7 @@ export default defineUserConfig({
   theme,
   plugins: [
     searchProPlugin({
+      indexContent: true
     }),
   ],
 

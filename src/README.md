@@ -4,8 +4,7 @@ icon: home
 heroImage: /logo.png
 heroFullScreen: true
 bgImage: /bg1.svg
-bgImageDark: /bg1dark.png
-# bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImageDark: https://i.niupic.com/images/2023/10/28/bYTs.png
 bgImageStyle:
   background-attachment: fixed
   opacity: 0.5

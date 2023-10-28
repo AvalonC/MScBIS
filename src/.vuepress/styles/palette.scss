@@ -1,11 +1,6 @@
 // you can change colors here
 $theme-color: #b01861;
 
-@font-face {
-    font-family: "HarmonyOSHans-Medium";
-    src: url(/assets/fonts/HarmonyOSHans-Medium.woff2);
-}
-
-$font-family: "HarmonyOSHans-Medium, PingFang SC, Segoe UI, Microsoft Yahei, sans-serif";
-$font-family-heading: "HarmonyOSHans-Medium";
-$font-family-mono: "HarmonyOSHans-Medium"
+$font-family: "PingFang SC, Segoe UI, Microsoft Yahei, sans-serif";
+$font-family-heading: "PingFang SC, Segoe UI, Microsoft Yahei, sans-serif";
+$font-family-mono: "PingFang SC, Segoe UI, Microsoft Yahei, sans-serif"
