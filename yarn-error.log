@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add -D @waline/client
+  /usr/local/bin/node /usr/local/bin/yarn install
 
 PATH: 
-  /home/avalonc/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Recovery/OEM/Backup/:/mnt/c/adb:/mnt/c/Users/WANG Guanzhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/WANG Guanzhang/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+  /home/avalonc/.npm/_npx/d0044b51b4805856/node_modules/.bin:/home/avalonc/BIS_Navigator_V2/node_modules/.bin:/home/avalonc/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/avalonc/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Recovery/OEM/Backup/:/mnt/c/adb:/mnt/c/Users/WANG Guanzhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/WANG Guanzhang/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
 
 Yarn version: 
   1.22.19
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/home/avalonc/BIS_Navigator_V2/node_modules/@mdit-vue/plugin-frontmatter/node_modules/entities/LICENSE'
+  Error: EACCES: permission denied, unlink '/home/avalonc/BIS_Navigator_V2/node_modules/@mdit-vue/plugin-component/node_modules/entities/LICENSE'
 
 npm manifest: 
   {
@@ -31,12 +31,13 @@ npm manifest:
     },
     "devDependencies": {
       "@vuepress/client": "2.0.0-beta.67",
+      "@waline/client": "^2.15.8",
       "mathjax-full": "^3.2.2",
       "reveal.js": "^5.0.0",
       "vue": "^3.3.7",
       "vuepress": "2.0.0-beta.67",
-      "vuepress-plugin-blog2": "^2.0.0-beta.242",
-      "vuepress-plugin-search-pro": "^2.0.0-beta.242",
+      "vuepress-plugin-blog2": "2.0.0-beta.242",
+      "vuepress-plugin-search-pro": "2.0.0-beta.242",
       "vuepress-theme-hope": "2.0.0-beta.242"
     },
     "dependencies": {
@@ -2121,6 +2122,16 @@ Lockfile:
     dependencies:
       vue-demi ">=0.14.6"
   
+  "@waline/client@^2.15.8":
+    version "2.15.8"
+    resolved "https://registry.yarnpkg.com/@waline/client/-/client-2.15.8.tgz#b775357a8c199165be01f9036c9b0af1ecfef232"
+    integrity sha512-EBL7RXJUJs742miTvOU0Vt8NEmeJ63EN5TtSsYZfzjUdvEtlv+JsBbS5uiz3C9v5qV7Hz+XDZdc8nc13mG9vNQ==
+    dependencies:
+      "@vueuse/core" "^10.4.1"
+      autosize "^6.0.1"
+      marked "^4.3.0"
+      vue "^3.3.4"
+  
   acorn@^8.8.2:
     version "8.10.0"
     resolved "https://registry.npmmirror.com/acorn/-/acorn-8.10.0.tgz#8be5b3907a67221a81ab23c7889c4c5526b62ec5"
@@ -2234,6 +2245,11 @@ Lockfile:
       normalize-range "^0.1.2"
       picocolors "^1.0.0"
       postcss-value-parser "^4.2.0"
+  
+  autosize@^6.0.1:
+    version "6.0.1"
+    resolved "https://registry.yarnpkg.com/autosize/-/autosize-6.0.1.tgz#64ee78dd7029be959eddd3afbbd33235b957e10f"
+    integrity sha512-f86EjiUKE6Xvczc4ioP1JBlWG7FKrE13qe/DxBCpe8GCipCq2nFw73aO8QEBKHfSbYGDN5eB9jXWKen7tspDqQ==
   
   available-typed-arrays@^1.0.5:
     version "1.0.5"
@@ -3578,6 +3594,11 @@ Lockfile:
       linkify-it "^4.0.1"
       mdurl "^1.0.1"
       uc.micro "^1.0.5"
+  
+  marked@^4.3.0:
+    version "4.3.0"
+    resolved "https://registry.yarnpkg.com/marked/-/marked-4.3.0.tgz#796362821b019f734054582038b116481b456cf3"
+    integrity sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==
   
   mathjax-full@^3.2.2:
     version "3.2.2"
@@ -4926,7 +4947,7 @@ Lockfile:
   
   vuepress@2.0.0-beta.67:
     version "2.0.0-beta.67"
-    resolved "https://registry.npmmirror.com/vuepress/-/vuepress-2.0.0-beta.67.tgz#eacf63d6d14f2364bd8043f13eba67234319cd53"
+    resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-2.0.0-beta.67.tgz#eacf63d6d14f2364bd8043f13eba67234319cd53"
     integrity sha512-931pKDOph20RKMLZAH5YYlMz+nfx9jcOQio1Gxk0pB7DwuSxAVFxPv2dbIUP4E/4uWOkLppRhLYcrOoxEbVYzA==
     dependencies:
       vuepress-vite "2.0.0-beta.67"
