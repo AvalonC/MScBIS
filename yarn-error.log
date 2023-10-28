@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add -D reveal.js
+  /usr/local/bin/node /usr/local/bin/yarn add -D @waline/client
 
 PATH: 
   /home/avalonc/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Recovery/OEM/Backup/:/mnt/c/Recovery/OEM/Backup/:/mnt/c/adb:/mnt/c/Users/WANG Guanzhang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/WANG Guanzhang/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
@@ -31,11 +31,16 @@ npm manifest:
     },
     "devDependencies": {
       "@vuepress/client": "2.0.0-beta.67",
+      "mathjax-full": "^3.2.2",
+      "reveal.js": "^5.0.0",
       "vue": "^3.3.7",
       "vuepress": "2.0.0-beta.67",
       "vuepress-plugin-blog2": "^2.0.0-beta.242",
       "vuepress-plugin-search-pro": "^2.0.0-beta.242",
       "vuepress-theme-hope": "2.0.0-beta.242"
+    },
+    "dependencies": {
+      "@rollup/plugin-alias": "^5.0.1"
     }
   }
 
@@ -1470,6 +1475,13 @@ Lockfile:
       "@nodelib/fs.scandir" "2.1.5"
       fastq "^1.6.0"
   
+  "@rollup/plugin-alias@^5.0.1":
+    version "5.0.1"
+    resolved "https://registry.yarnpkg.com/@rollup/plugin-alias/-/plugin-alias-5.0.1.tgz#c84a43e021f5e0ebf1cc3c5af518c8371251bb77"
+    integrity sha512-JObvbWdOHoMy9W7SU0lvGhDtWq9PllP5mjpAy+TUslZG/WzOId9u80Hsqq1vCUn9pFJ0cxpdcnAv+QzU2zFH3Q==
+    dependencies:
+      slash "^4.0.0"
+  
   "@rollup/plugin-babel@^5.2.0":
     version "5.3.1"
     resolved "https://registry.npmmirror.com/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz#04bc0608f4aa4b2e4b1aebf284344d0f68fda283"
@@ -2471,6 +2483,11 @@ Lockfile:
     resolved "https://registry.npmmirror.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
     integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
   
+  commander@9.2.0:
+    version "9.2.0"
+    resolved "https://registry.yarnpkg.com/commander/-/commander-9.2.0.tgz#6e21014b2ed90d8b7c9647230d8b7a94a4a419a9"
+    integrity sha512-e2i4wANQiSXgnrBlIatyHtP1odfUp0BbV5Y5nEGbxtIrStkEOAAzCUirvLBNXHLr7kwLvJl6V+4V3XV9x7Wd9w==
+  
   commander@^2.20.0:
     version "2.20.3"
     resolved "https://registry.npmmirror.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
@@ -2777,6 +2794,11 @@ Lockfile:
     version "1.0.5"
     resolved "https://registry.npmmirror.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
     integrity sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==
+  
+  esm@^3.2.25:
+    version "3.2.25"
+    resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
+    integrity sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
   
   esprima@^4.0.0:
     version "4.0.1"
@@ -3557,6 +3579,16 @@ Lockfile:
       mdurl "^1.0.1"
       uc.micro "^1.0.5"
   
+  mathjax-full@^3.2.2:
+    version "3.2.2"
+    resolved "https://registry.yarnpkg.com/mathjax-full/-/mathjax-full-3.2.2.tgz#43f02e55219db393030985d2b6537ceae82f1fa7"
+    integrity sha512-+LfG9Fik+OuI8SLwsiR02IVdjcnRCy5MufYLi0C3TdMT56L/pjB0alMVGgoWJF8pN9Rc7FESycZB9BMNWIid5w==
+    dependencies:
+      esm "^3.2.25"
+      mhchemparser "^4.1.0"
+      mj-context-menu "^0.6.1"
+      speech-rule-engine "^4.0.6"
+  
   mdurl@^1.0.1:
     version "1.0.1"
     resolved "https://registry.npmmirror.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
@@ -3576,6 +3608,11 @@ Lockfile:
     version "1.4.1"
     resolved "https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
     integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
+  
+  mhchemparser@^4.1.0:
+    version "4.2.1"
+    resolved "https://registry.yarnpkg.com/mhchemparser/-/mhchemparser-4.2.1.tgz#d73982e66bc06170a85b1985600ee9dabe157cb0"
+    integrity sha512-kYmyrCirqJf3zZ9t/0wGgRZ4/ZJw//VwaRVGA75C4nhE60vtnIzhl9J9ndkX/h6hxSN7pjg/cE0VxbnNM+bnDQ==
   
   micromatch@^4.0.4:
     version "4.0.5"
@@ -3613,6 +3650,11 @@ Lockfile:
     version "3.0.1"
     resolved "https://registry.npmmirror.com/mitt/-/mitt-3.0.1.tgz#ea36cf0cc30403601ae074c8f77b7092cdab36d1"
     integrity sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==
+  
+  mj-context-menu@^0.6.1:
+    version "0.6.1"
+    resolved "https://registry.yarnpkg.com/mj-context-menu/-/mj-context-menu-0.6.1.tgz#a043c5282bf7e1cf3821de07b13525ca6f85aa69"
+    integrity sha512-7NO5s6n10TIV96d4g2uDpG7ZDpIhMh0QNfGdJw/W47JswFcosz457wqz/b5sAKvl12sxINGFCn80NZHKwxQEXA==
   
   ms@2.1.2:
     version "2.1.2"
@@ -3983,6 +4025,11 @@ Lockfile:
     resolved "https://registry.npmmirror.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
     integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
   
+  reveal.js@^5.0.0:
+    version "5.0.0"
+    resolved "https://registry.yarnpkg.com/reveal.js/-/reveal.js-5.0.0.tgz#7084225f5cb53371be09368f4675f572757046e1"
+    integrity sha512-GXbW7GVJxgJh5szlh/jnifAMt9KBDh7Q4Or+v0q1hIaddn6vr4cvUFxoYsAfa5Hmw2G+6fIwZCDf3firB5FJHg==
+  
   rollup-plugin-terser@^7.0.0:
     version "7.0.2"
     resolved "https://registry.npmmirror.com/rollup-plugin-terser/-/rollup-plugin-terser-7.0.2.tgz#e8fbba4869981b2dc35ae7e8a502d5c6c04d324d"
@@ -4189,6 +4236,15 @@ Lockfile:
     version "1.4.8"
     resolved "https://registry.npmmirror.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
     integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
+  
+  speech-rule-engine@^4.0.6:
+    version "4.0.7"
+    resolved "https://registry.yarnpkg.com/speech-rule-engine/-/speech-rule-engine-4.0.7.tgz#b655dacbad3dae04acc0f7665e26ef258397dd09"
+    integrity sha512-sJrL3/wHzNwJRLBdf6CjJWIlxC04iYKkyXvYSVsWVOiC2DSkHmxsqOhEeMsBA9XK+CHuNcsdkbFDnoUfAsmp9g==
+    dependencies:
+      commander "9.2.0"
+      wicked-good-xpath "1.3.0"
+      xmldom-sre "0.1.31"
   
   sprintf-js@~1.0.2:
     version "1.0.3"
@@ -4923,6 +4979,11 @@ Lockfile:
     dependencies:
       isexe "^2.0.0"
   
+  wicked-good-xpath@1.3.0:
+    version "1.3.0"
+    resolved "https://registry.yarnpkg.com/wicked-good-xpath/-/wicked-good-xpath-1.3.0.tgz#81b0e95e8650e49c94b22298fff8686b5553cf6c"
+    integrity sha512-Gd9+TUn5nXdwj/hFsPVx5cuHHiF5Bwuc30jZ4+ronF1qHK5O7HD0sgmXWSEgwKquT3ClLoKPVbO6qGwVwLzvAw==
+  
   workbox-background-sync@7.0.0:
     version "7.0.0"
     resolved "https://registry.npmmirror.com/workbox-background-sync/-/workbox-background-sync-7.0.0.tgz#2b84b96ca35fec976e3bd2794b70e4acec46b3a5"
@@ -5101,6 +5162,11 @@ Lockfile:
     integrity sha512-7rVi2KMfwfWFl+GpPg6m80IVMWXLRjO+PxTq7V2CDhoGak0wzYzFgUY2m4XJ47OGdXd8eLE8EmwfAmdjw7lC1g==
     dependencies:
       sax "^1.2.4"
+  
+  xmldom-sre@0.1.31:
+    version "0.1.31"
+    resolved "https://registry.yarnpkg.com/xmldom-sre/-/xmldom-sre-0.1.31.tgz#10860d5bab2c603144597d04bf2c4980e98067f4"
+    integrity sha512-f9s+fUkX04BxQf+7mMWAp5zk61pciie+fFLC9hX9UVvCeJQfNHRHXpeo5MPcR0EUf57PYLdt+ZO4f3Ipk2oZUw==
   
   y18n@^4.0.0:
     version "4.0.3"
