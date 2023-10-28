@@ -1,6 +1,12 @@
 // you can change colors here
 $theme-color: #b01861;
 
+$card-shadow: (
+    light: rgb(213, 213, 213),
+    dark: rgb(0, 0, 0)
+);
+
+
 $font-family: "PingFang SC, Segoe UI, Microsoft Yahei, sans-serif";
 $font-family-heading: "PingFang SC, Segoe UI, Microsoft Yahei, sans-serif";
 $font-family-mono: "PingFang SC, Segoe UI, Microsoft Yahei, sans-serif"
