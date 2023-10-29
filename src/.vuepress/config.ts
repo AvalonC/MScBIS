@@ -14,7 +14,7 @@ export default defineUserConfig({
       // 索引全部内容
       indexContent: true,
       hotReload: true,
-      // 为分类和标签添加索引
+      hotKeys: [{ key: "/", ctrl: true }]
     }),
   ],
 
