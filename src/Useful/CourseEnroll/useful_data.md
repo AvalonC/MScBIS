@@ -100,14 +100,14 @@ next: false
     <tr id="c_hlight1">
         <td>WEB</td>
         <td>
-        - Description “Y” under this heading mean they are web-enabled and students can add/drop such courses via the Web Add/Drop form. <br> 
-        - Description “N” under this heading mean they are NOT web-enabled. <br> 
+        - Description “Y” under this heading mean they are web-enabled and students can add/drop such courses via the Web Add/Drop form. <br>
+        - Description “N” under this heading mean they are NOT web-enabled. <br>
         Students can obtain the course-offering unit’s approval via the electronic form to add/drop such courses
         </td>
     </tr>
     <tr id="c_hlight1">
         <td>Level</td>
-        <td>Eligible student level for taking the course<br> 
+        <td>Eligible student level for taking the course<br>
         - A&nbsp;&nbsp;Associate Degree Level<br>
         - B&nbsp;&nbsp;Bachelor's Degree Level<br>
         - P&nbsp;&nbsp;Postgraduate Degree level<br>
@@ -124,9 +124,9 @@ next: false
     </tr>
     <tr id="c_hlight1">
         <td>Waitlist Avail</td>
-        <td>Waitlist quota available for a course or course section:<br> 
-        - Description “Y” under the heading means waitlist available.<br> 
-        - Description “N” under the heading means waitlist NOT available.<br> 
+        <td>Waitlist quota available for a course or course section:<br>
+        - Description “Y” under the heading means waitlist available.<br>
+        - Description “N” under the heading means waitlist NOT available.<br>
         - Description “Full” under the heading means waitlist full.</td>
     </tr>
     <tr id="c_hlight1">
@@ -153,9 +153,9 @@ next: false
     </tr>
     <tr id="c_hlight1">
         <td>Part of Term</td>
-        <td>Most courses last for one semester and are classified as "regular term".<br> 
-        - Description “1” under the heading means the course is regular term.<br> 
-        - Description “Y” under the heading means the course is extended to more than one semester and are classified as "year-long".<br> 
+        <td>Most courses last for one semester and are classified as "regular term".<br>
+        - Description “1” under the heading means the course is regular term.<br>
+        - Description “Y” under the heading means the course is extended to more than one semester and are classified as "year-long".<br>
         - Description “S” under the heading means the course does not follow the regular term. The start/end dates are different. They are classified as "special term".</td>
     </tr>
     <tr id="c_hlight1">
@@ -249,7 +249,7 @@ If a course or section which is marked "only for College: CB" and “not for Maj
 
 ## D. 选择网选课程流程（2023年6月16日版）
 
-来源：[Web Add/Drop](https://www.cityu.edu.hk/arro/content.asp?cid=155) 
+来源：[Web Add/Drop](https://www.cityu.edu.hk/arro/content.asp?cid=155)
 
 :::warning 仅提供英语版本
 此文档出于避免误导目的，不提供中文版本。
@@ -259,6 +259,7 @@ Most of the courses are web-enabled courses which can be added/dropped on AIMS w
 
 ::: warning Rules
 Students are not permitted to use any method to attempt to gain an unfair advantage during online course registration such as:
+
 - holding a place on a course and then releasing it to a fellow student conspiratorially
 - any attempt to add a course section that is known to be closed by using a computer program
 - usage of any browser add-ons to monitor changes in section capacity which disrupts the web performance
@@ -267,35 +268,41 @@ Web activity will be continuously monitored during the add/drop period to safegu
 :::
 
 ### Getting Started
-1.	Log onto AIMS (under "Quick Links" at the top of the CityU homepage).
-2.	Click "Course Registration" menu.
-3.	Click "Main Menu for Web Add/Drop" 
-4.	Click "Select Term", choose the correct term and press "Submit".
-5.	Click "Add or Drop Classes" and you will find your pre-registered course sections under "Current Schedule".
+
+1. Log onto AIMS (under "Quick Links" at the top of the CityU homepage).
+2. Click "Course Registration" menu.
+3. Click "Main Menu for Web Add/Drop"
+4. Click "Select Term", choose the correct term and press "Submit".
+5. Click "Add or Drop Classes" and you will find your pre-registered course sections under "Current Schedule".
 
 ### Adding a Course
-1.	Input the CRNs (obtainable from the Master Class Schedule) in the boxes under the heading "Add Classes Worksheet". Make sure you have included all required course sections for courses with multiple components, e.g., lectures (C) + tutorials (T) + laboratories (L).
-2.	Click "Submit Changes".
-3.	Course sections successfully registered will be shown under "Current Schedule".
+
+1. Input the CRNs (obtainable from the Master Class Schedule) in the boxes under the heading "Add Classes Worksheet". Make sure you have included all required course sections for courses with multiple components, e.g., lectures (C) + tutorials (T) + laboratories (L).
+2. Click "Submit Changes".
+3. Course sections successfully registered will be shown under "Current Schedule".
 
 ### Waitlisting a Course
-1.	Input the CRNs (obtainable from the Master Class Schedule) in the boxes under the heading "Add Classes Worksheet". Make sure you have included all required course sections for courses with multiple components, e.g., lectures (C) + tutorials (T) + laboratories (L).
-2.	Click "Submit Changes".
-3.	If the course is already full, it will be shown in the error table.
-4.	Select "Waitlist" from the "Action" drop-down list in the error table. To waitlist a course with multiple components, select "Waitlist" for all its course sections.
-5.	Click "Submit Changes".
+
+1. Input the CRNs (obtainable from the Master Class Schedule) in the boxes under the heading "Add Classes Worksheet". Make sure you have included all required course sections for courses with multiple components, e.g., lectures (C) + tutorials (T) + laboratories (L).
+2. Click "Submit Changes".
+3. If the course is already full, it will be shown in the error table.
+4. Select "Waitlist" from the "Action" drop-down list in the error table. To waitlist a course with multiple components, select "Waitlist" for all its course sections.
+5. Click "Submit Changes".
 
 ### Dropping a Course
-1.	To drop a course section, select "Web drop" from the "Action" drop-down list in "Current Schedule". To drop a course with multiple components, all its course sections must be dropped at the same time.
-2.	Click "Submit Changes".
+
+1. To drop a course section, select "Web drop" from the "Action" drop-down list in "Current Schedule". To drop a course with multiple components, all its course sections must be dropped at the same time.
+2. Click "Submit Changes".
+
 ### Demos
+
 - [Adding a course(Video)](http://www.cityu.edu.hk/arro/CourseReg-Add_202006.asp)
 - [Dropping a Course (Video)](http://www.cityu.edu.hk/arro/CourseReg-Drop_202006.asp)
 - [Waitlisting (PDF Documents)](http://www.cityu.edu.hk/arro/files/file/hk/course/Waitlist_Demo_(Banner8)_202006.pdf)
 
 ## E. 选择非网选课程流程（2023年6月16日版）
 
-来源：[Non-Web Add/Drop](https://www.cityu.edu.hk/arro/content.asp?cid=156) 
+来源：[Non-Web Add/Drop](https://www.cityu.edu.hk/arro/content.asp?cid=156)
 
 :::warning 仅提供英语版本
 此文档出于避免误导目的，不提供中文版本。
@@ -312,44 +319,49 @@ To add/drop courses that are non-web-enabled or to bypass the registration restr
 - Request can be cancelled if it is still in "Pending" status. The cancelled request is irrevocable. Submit a new request to replace the cancelled one if necessary.
 
 ### Getting Started
-1.	Click "Application for Add/Drop of Non-Web-enabled Course & Study Load Adjustment"
-2.	Your student particulars and the courses already registered in your current schedule will be displayed.
-3.	Click the "Add/Drop Course/Change Section(s)" button at the bottom.
+
+1. Click "Application for Add/Drop of Non-Web-enabled Course & Study Load Adjustment"
+2. Your student particulars and the courses already registered in your current schedule will be displayed.
+3. Click the "Add/Drop Course/Change Section(s)" button at the bottom.
 
 ### Drop Course
-1.	Input the registered course you wish to drop in the box and then click “Search”.
-2.	Click "Drop Course".
-3.	Check the box(es) next to the course section(s) you wish to drop.
-4.	Choose a reason from the drop-down box. If "Other Reasons",is chosen, please provide details in the textbox below.
-5.	Click the "Drop" button to submit the request and confirm the submission in the pop-up window.
-6.	You can also upload supporting document(s), if any, to support your drop course request.
-7.	The Drop course request can be cancelled if it is still in "Pending" status. As the cancelled request is irrevocable, please submit a new request to replace the cancelled request if necessary.
-8.	After course-offering Academic Unit makes its decision, you will be notified via email and you may also check the status on AIMS.
+
+1. Input the registered course you wish to drop in the box and then click “Search”.
+2. Click "Drop Course".
+3. Check the box(es) next to the course section(s) you wish to drop.
+4. Choose a reason from the drop-down box. If "Other Reasons",is chosen, please provide details in the textbox below.
+5. Click the "Drop" button to submit the request and confirm the submission in the pop-up window.
+6. You can also upload supporting document(s), if any, to support your drop course request.
+7. The Drop course request can be cancelled if it is still in "Pending" status. As the cancelled request is irrevocable, please submit a new request to replace the cancelled request if necessary.
+8. After course-offering Academic Unit makes its decision, you will be notified via email and you may also check the status on AIMS.
 
 ### Change Section(s)
-1.	Input the registered course you wish to change section(s) in the box and then click “Search”.
-2.	Click "Change Section(s)".
-3.	Check the box(es) next to the course section(s) you wish to change to.
-4.	Choose a reason from the drop-down box. If "Other Reasons" is chosen, please provide details in the textbox below.
-5.	Click the "Change Section(s)" button to submit the request and confirm the submission in the pop-up window.
-6.	You can also upload supporting document(s), if any, to support your change section(s) request.
-7.	The Change section(s) request can be cancelled if it is still in "Pending" status. As the cancelled request is irrevocable, please submit a new request to replace the cancelled request if necessary.
-8.	After course-offering Academic Unit makes its decision, you will be notified via email and you may also check the status on AIMS.
-9.	Please observe the timetable of the course section(s) requested and ensure that they do not clash with your personal class schedule.
+
+1. Input the registered course you wish to change section(s) in the box and then click “Search”.
+2. Click "Change Section(s)".
+3. Check the box(es) next to the course section(s) you wish to change to.
+4. Choose a reason from the drop-down box. If "Other Reasons" is chosen, please provide details in the textbox below.
+5. Click the "Change Section(s)" button to submit the request and confirm the submission in the pop-up window.
+6. You can also upload supporting document(s), if any, to support your change section(s) request.
+7. The Change section(s) request can be cancelled if it is still in "Pending" status. As the cancelled request is irrevocable, please submit a new request to replace the cancelled request if necessary.
+8. After course-offering Academic Unit makes its decision, you will be notified via email and you may also check the status on AIMS.
+9. Please observe the timetable of the course section(s) requested and ensure that they do not clash with your personal class schedule.
 
 ### Add Course
-1.	Input the course you wish to add in the box and then click “Search”.
-2.	Check the box(es) next to the course section(s) you wish to add.
-3.	Choose a reason from the drop-down box. If "Other Reasons" is chosen, please provide details in the textbox below.
-4.	Click the “Add” button to submit the request and confirm the submission in the pop-up window.
-5.	You can also upload supporting document(s), if any, to support your add course request.
-6.	The Add course request can be cancelled if it is still in "Pending" status. As the cancelled request is irrevocable, please submit a new request to replace the cancelled request if necessary.
-7.	After course-offering Academic Unit makes its decision, you will be notified via email and you may also check the status on AIMS.
-8.	Please observe the timetable of the courses requested and ensure that they do not clash with each other or your personal class schedule.
-9.	Please ensure the potential study load stays in the range of the maximum and minimum study load as stipulated by the University if all add/drop course requests are approved. You may submit application for adjustment of study load if necessary.
-10.	When you have finished, make sure that you log out AIMS before leaving your terminal.
+
+1. Input the course you wish to add in the box and then click “Search”.
+2. Check the box(es) next to the course section(s) you wish to add.
+3. Choose a reason from the drop-down box. If "Other Reasons" is chosen, please provide details in the textbox below.
+4. Click the “Add” button to submit the request and confirm the submission in the pop-up window.
+5. You can also upload supporting document(s), if any, to support your add course request.
+6. The Add course request can be cancelled if it is still in "Pending" status. As the cancelled request is irrevocable, please submit a new request to replace the cancelled request if necessary.
+7. After course-offering Academic Unit makes its decision, you will be notified via email and you may also check the status on AIMS.
+8. Please observe the timetable of the courses requested and ensure that they do not clash with each other or your personal class schedule.
+9. Please ensure the potential study load stays in the range of the maximum and minimum study load as stipulated by the University if all add/drop course requests are approved. You may submit application for adjustment of study load if necessary.
+10. When you have finished, make sure that you log out AIMS before leaving your terminal.
 
 ::: details Notes
+
 - All the requests can be cancelled if it is still in "Pending" status. As the cancelled request is irrevocable, please submit a new request to replace the cancelled request if necessary.
 - After course-offering Academic Unit makes its decision, you will be notified via email and you may also check the status on AIMS.
 - Please observe the timetable of the course section(s) requested and ensure that they do not clash with your personal class schedule.

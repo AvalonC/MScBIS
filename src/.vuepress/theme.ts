@@ -58,6 +58,12 @@ export default hopeTheme({
       categoryId: "DIC_kwDOKUhjPs4CaWBw",
     },
 
+    // components: {
+    //   components: [
+    //     "VideoPlayer",
+    //   ],
+    // },
+
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,

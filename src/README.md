@@ -21,6 +21,10 @@ actions:
   - text: FIT方向🖥️
     link: ./FIT/
 
+  - text: 校友寄言✍️
+    link: ./general/alumni_share
+    type: primary
+
 highlights:
   - header: Let's boost your experience
     image: /assets/image/查询.svg
@@ -32,5 +36,5 @@ highlights:
       - title: 香港/内地双节点，无论身处何地，都能轻松访问
 
 copyright: false
-footer: 此为评估版本 · <a href = "General/about">关于本站</a> · <a href ="General/appreciate">致谢</a> · <a href ="General/recurit"> 招贤纳士 </a>
+footer: 此站为民间站点 | <a href = "General/about">关于本站</a> · <a href ="General/appreciate">致谢</a> · <a href ="General/recurit"> 招贤纳士 </a> · <a href = "General/Hall_of_Fame">名人堂</a>
 ---
