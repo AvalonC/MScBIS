@@ -61,7 +61,8 @@ export default hopeTheme({
     components: {
       components: [
         "VPBanner",
-        "VPCard"
+        "VPCard",
+        "Badge"
       ],
     },
 
