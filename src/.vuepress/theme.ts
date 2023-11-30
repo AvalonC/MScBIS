@@ -52,10 +52,10 @@ export default hopeTheme({
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "AvalonC/BIS_Navigator_V2",
-      repoId: "R_kgDOKUhjPg",
+      repo: "AvalonC/MScBIS",
+      repoId: "R_kgDOJuLGmQ",
       category: "Announcements",
-      categoryId: "DIC_kwDOKUhjPs4CaWBw",
+      categoryId: "DIC_kwDOJuLGmc4CbYdR",
     },
 
     components: {

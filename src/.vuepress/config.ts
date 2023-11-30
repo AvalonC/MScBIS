@@ -4,7 +4,7 @@ import { componentsPlugin } from "vuepress-plugin-components";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/BIS_Navigator_V2/",
+  base: "/MScBIS/",
   lang: "zh-CN",
   title: "BIS Navigator",
   description: "BIS Navigator",

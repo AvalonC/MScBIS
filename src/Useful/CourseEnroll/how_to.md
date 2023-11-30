@@ -44,7 +44,7 @@ next: false
 
 --
 
-![Alt text](/BIS_Navigator_V2/ARRO_1.png)
+![Alt text](/MScBIS/ARRO_1.png)
 
 --
 
@@ -86,22 +86,22 @@ next: false
 
 2. 找到 Find a Page搜索框，输入 **"<font color=#b01861>Master</font>"** 一词，点击"Go"按钮或回车
 
-![AIMS](/BIS_Navigator_V2/AIMS_1.png)
+![AIMS](/MScBIS/AIMS_1.png)
 
 --
 
 3. 在搜索结果页面，选择 "**<font color=#b01861>Master Class Schedule</font>**"选项
-![AIMS Page](/BIS_Navigator_V2/AIMS_2.png)
+![AIMS Page](/MScBIS/AIMS_2.png)
 
 --
 
 4. 在新页面中，选择你想查阅的学期，然后点击"**<font color=#b01861>Submit Term</font>**"。(_本文以2022/23 Sem A为例_)
-![AIMS Page](/BIS_Navigator_V2/AIMS_3.png)
+![AIMS Page](/MScBIS/AIMS_3.png)
 
 --
 
 5. 在新页面中，你将需要配置相当多的选项来选课，这是AIMS提供的多元化检索服务。
-![AIMS Page](/BIS_Navigator_V2/AIMS_4.png)
+![AIMS Page](/MScBIS/AIMS_4.png)
 
 --
 
@@ -114,7 +114,7 @@ BIS是一个Postgraduate Degree Programme
 --
 
 6. 现在你可以查看你所选定学期内有哪些课程是由资讯系统学部提供的了。
-![AIMS Page](/BIS_Navigator_V2/AIMS_5.png)
+![AIMS Page](/MScBIS/AIMS_5.png)
 
 --
 
