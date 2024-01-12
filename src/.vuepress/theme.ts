@@ -59,6 +59,23 @@ export default hopeTheme({
     },
 
     components: {
+      rootComponents: {
+        notice: [
+          {
+            path: "/",
+            title: "🧐BIS自2024-2025学年开始的新变化",
+            content: "请阅读此文了解下一届将会产生的一些变动,浏览后此通知将不再显示。",
+            actions: [
+              {
+                text: "了解详情",
+                link: "/General/changedata.md",
+                type: "primary",
+              },
+            ],
+            confirm:true
+          }
+        ],
+      },
       components: [
         "VPBanner",
         "VPCard",
@@ -109,7 +126,7 @@ export default hopeTheme({
       vPre: false,
       vuePlayground: false,
     },
-
+    searchPro: true,
     // uncomment these if you want a pwa
     pwa: {
       favicon: "/favicon.ico",
