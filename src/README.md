@@ -40,5 +40,5 @@ footer: 此站为民间站点 | <a href = "General/about">关于本站</a> · <a
 ## 即将更新
 BIS Navigator将在6月更新以服务2024 Fall入学新生。
 
-[点此](/General/Changedata.md)了解BIS项目将会产生的一些新变化以免造成不必要的误解。
+[点此](./General/changedata.md)了解BIS项目将会产生的一些新变化以免造成不必要的误解。
 
