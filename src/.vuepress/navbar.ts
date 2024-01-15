@@ -42,7 +42,8 @@ export default navbar([
         children: [
           { text: "选课基本流程", icon: "ellipsis", link: "how_to" },
           { text: "流程有用信息", icon: "circle-info", link: "useful_data" },
-          { text: "选课数量安排", icon: "ellipsis", link: "time_arrangement" }
+          { text: "选课数量安排", icon: "ellipsis", link: "time_arrangement" },
+          {text:"CityU Schedule Planner下载", icon:"circle-info", link:"extension"}
         ]
       },
       {
