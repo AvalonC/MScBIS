@@ -52,10 +52,9 @@ next: false
 3. 点击 <code>Preview</code>即可查阅此课程的时间预览
 4. 点击<code>Add to waitlist</code> 即可将此课程CRN记录于插件中
 
-## 下载安装（仅有英语版本）
+## 下载安装
 点击下方链接下载，安装过程详见说明文档。
 
-[前往Github release下载](https://github.com/AvalonC/CityU-Schedule-Planner/releases/tag/V0.1)
-
-
+[英文版本（推荐）：](https://github.com/AvalonC/CityU-Schedule-Planner/releases/tag/V0.1)
+[简体中文版：](https://github.com/AvalonC/CityU-Schedule-Planner-CN/releases/tag/V0.1-Yudi)
 
