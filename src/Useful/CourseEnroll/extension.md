@@ -55,6 +55,4 @@ next: false
 ## 下载安装
 点击下方链接下载，安装过程详见说明文档。
 
-[英文版本（推荐）：](https://github.com/AvalonC/CityU-Schedule-Planner/releases/tag/V0.1)
-[简体中文版：](https://github.com/AvalonC/CityU-Schedule-Planner-CN/releases/tag/V0.1-Yudi)
-
+[Github](https://github.com/AvalonC/CityU-Schedule-Planner/releases/latest)
