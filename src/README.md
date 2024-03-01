@@ -12,7 +12,7 @@ heroText: Welcome to BIS Navigator
 tagline: Smart People for Smart Business
 actions:
   - text: 快速开始 🪄
-    link: ./general/quickstart
+    link: ./General/quickstart
     type: primary
 
   - text: MIS方向💻
@@ -22,7 +22,7 @@ actions:
     link: ./FIT/
 
   - text: 校友寄言✍️
-    link: ./general/alumni_share
+    link: ./General/alumni_share
     type: primary
 
 highlights:

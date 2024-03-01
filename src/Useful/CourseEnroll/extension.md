@@ -33,7 +33,7 @@ next: false
 
 - 模拟排课并支持图片输出
 
-![Schedule Preview](/CSP_6.jpg)
+![Schedule Preview](/CSP_6.png)
 
 ![功能界面](/CSP_7.png)
   
