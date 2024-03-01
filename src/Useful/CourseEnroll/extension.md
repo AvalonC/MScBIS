@@ -31,6 +31,11 @@ next: false
 
 ![wishlist功能](/CSP_5.jpg)
 
+- 模拟排课并支持图片输出
+
+![Schedule Preview](/CSP_6.jpg)
+
+![功能界面](/CSP_7.png)
   
 ## 插件加载步骤
 1. 将压缩包解压到一个文件夹中
@@ -51,6 +56,12 @@ next: false
 2. 找到目标课程的section
 3. 点击 <code>Preview</code>即可查阅此课程的时间预览
 4. 点击<code>Add to waitlist</code> 即可将此课程CRN记录于插件中
+5. 在wishlist中选中需要的课程，点击<code>Schedule Preview</code>即可进行课程模拟排布（可选是否显示原有的TimeTable）
+6. 在预览界面保留需要留下的课程，点击<code>Reschedule</code>即可整理课表
+7. 可通过<code>Restore Enrolled</code>还原全部Timetable中已有课程。
+8. 完成排课后，可通过<code>Save Preview</code>下载预排课表为PNG。
+
+_小技巧：将页面最大化并调整缩放比例为150%，即可将输出调整为适合手机屏幕的大小_
 
 ## 下载安装
 点击下方链接下载，安装过程详见说明文档。
