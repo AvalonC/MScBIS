@@ -1,6 +1,6 @@
 // place your custom styles here
 #main-title {
-    background: linear-gradient(to top right, var(--theme-color-light), var(--theme-color-light) 30%, #fff 100%);
+    background: linear-gradient(45deg, var(--theme-color-light), var(--theme-color-light) 30%, #fff 100%);
     margin: 0.5rem 0;
     -webkit-background-clip: text;
     background-clip: text;
@@ -12,7 +12,7 @@
 }
 
 .vp-action.primary {
-    background: linear-gradient(to top right, var(--theme-color), var(--theme-color-light), #fff) !important;
+    background: linear-gradient(45deg, var(--theme-color), var(--theme-color-light), #fff) !important;
     background-size: 200% 200% !important;
     background-position: 100% 100%;
     transition: background-position 0.5s;
@@ -81,18 +81,18 @@
     backdrop-filter: saturate(150%) blur(8px);
 }
 
-.vp-banner{
+.vp-banner {
     max-width: 420px;
     padding: 1.5rem;
     border-radius: 0.5rem;
 }
 
-.vp-banner-logo{
-    width:4em;
+.vp-banner-logo {
+    width: 4em;
     height: 5em;
 }
 
-.vp-banner-title{
+.vp-banner-title {
     font-weight: 700;
     font-size: 1.125rem;
 }

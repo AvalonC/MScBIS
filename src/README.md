@@ -33,6 +33,15 @@ highlights:
     highlights:
       - title: 停止迷茫选课，查阅课程材料的同时，获得最真实的反馈
       - title: 全面兼容所有设备，为你提供最佳浏览体验，助力顺利选课
+  - header: AIMS, Now IS smarter with "CSP"
+    image: /assets/image/csp.png
+    bgImage: sb1.svg
+    bgImageDark: sb1dark.svg
+    highlights:
+      - title: CityU Schedule Planner, 专为AIMS体验提升所设计的插件
+      - title: 强化AIMS选课界面提示，提供预选课功能
+      - title: 点此下载 
+        link: /Useful/CourseEnroll/extension.html
 
 copyright: false
 footer: 此站为民间站点 | <a href = "General/about">关于本站</a> · <a href ="General/appreciate">致谢</a> · <a href ="General/recurit"> 招贤纳士 </a> · <a href = "General/Hall_of_Fame">名人堂</a>
