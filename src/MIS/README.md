@@ -1,7 +1,7 @@
 ---
 title: 管理信息系统方向
 index: false
-icon: "book"
+icon: "bi-archive-fill"
 category:
   - 专业方向介绍
 ---

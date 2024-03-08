@@ -1,7 +1,7 @@
 ---
 title: 金融与智能科技方向
 index: false
-icon: "book"
+icon: "bi-archive-fill"
 category:
   - 专业方向介绍
 prev: false

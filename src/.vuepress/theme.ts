@@ -9,7 +9,7 @@ export default hopeTheme({
     name: "BIS Navigator",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css",
 
   logo: "/logo.png",
 
@@ -99,7 +99,7 @@ export default hopeTheme({
       include: true,
       katex: false,
       mark: false,
-      mermaid: false,
+      mermaid: true,
       revealJs: {
         plugins: ["zoom", "highlight", "search"],
         themes: ["sky"]
@@ -131,7 +131,6 @@ export default hopeTheme({
     pwa: {
       favicon: "/favicon.ico",
       cacheHTML: true,
-      cachePic: true,
       appendBase: true,
       update: "hint",
       themeColor: "#b01861",

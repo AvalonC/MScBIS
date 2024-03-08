@@ -1,6 +1,4 @@
 import { defineUserConfig } from "vuepress";
-import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { componentsPlugin } from "vuepress-plugin-components";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -10,8 +8,6 @@ export default defineUserConfig({
   description: "BIS Navigator",
 
   theme,
-  plugins: [
-  ],
 
   // Enable it with pwa
   shouldPrefetch: false,

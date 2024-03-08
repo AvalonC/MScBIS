@@ -15,6 +15,10 @@ actions:
     link: ./General/quickstart
     type: primary
 
+  - text: 新生必读🔰
+    link: ./General/greenhand
+    type: primary
+
   - text: MIS方向💻
     link: ./MIS/
 

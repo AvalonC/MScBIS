@@ -1,6 +1,6 @@
 ---
 title: 共享选修课池
-icon: "book"
+icon: "bi-archive-fill"
 category:
  - 课程相关
 tag:

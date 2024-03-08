@@ -4,6 +4,7 @@ sidebar: false
 comment: false
 prev: false
 next: false
+icon: bi-arrow-right-circle
 ---
 
 Hello！欢迎访问此站📚
