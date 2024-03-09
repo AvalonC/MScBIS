@@ -25,8 +25,6 @@ A: 可行，时间参考：罗湖口岸附近到城大门口，大概70min（步
 如果有北京/上海的落户需求，请注意这些地方的政策对于境外驻留时间有所要求，深港通勤可能无法满足驻留时间的要求。
 :::
 
-
-
 ## 就业方向
 ::: tip 个人能力
 个人的本科能力也会一定程度上影响未来就业方向，因此皆有本专业可进行技能与认知上的补足，但相关的实践和能力培养则需要自身注意。
@@ -49,7 +47,9 @@ A: 可行，时间参考：罗湖口岸附近到城大门口，大概70min（步
 
 参考本专业2012年进行的毕业生去向追踪，可参考就业方向分布
 
-Ref.: [Career Prospects](https://www.cb.cityu.edu.hk/is/postgraduate-degrees/taught-postgraduate/msc-business-information-systems/career-prospects)
+Ref.: 
+- [Career Prospects](https://www.cb.cityu.edu.hk/is/postgraduate-degrees/taught-postgraduate/msc-business-information-systems/career-prospects)
+- BIS宣讲会
 
 ```pie
 title BIS就业类型（2012届追踪数据）
@@ -61,3 +61,6 @@ title BIS就业类型（2012届追踪数据）
   "Others" : 27
   "Ph.D/University Researcher" : 6
 ```
+BIS的部分校友去向可参考下图。
+
+![BIS部分校友去向](/direction.png)

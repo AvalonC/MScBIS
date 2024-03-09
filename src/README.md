@@ -25,10 +25,6 @@ actions:
   - text: FIT方向🖥️
     link: ./FIT/
 
-  - text: 校友寄言✍️
-    link: ./General/alumni_share
-    type: primary
-
 highlights:
   - header: Let's boost your experience
     image: /assets/image/查询.svg
@@ -48,7 +44,7 @@ highlights:
         link: /Useful/CourseEnroll/extension.html
 
 copyright: false
-footer: 此站为民间站点 | <a href = "General/about">关于本站</a> · <a href ="General/appreciate">致谢</a> · <a href ="General/recurit"> 招贤纳士 </a> · <a href = "General/Hall_of_Fame">名人堂</a>
+footer: 此站为民间站点<br/> <a href = "General/about">关于本站</a> · <a href ="General/appreciate">致谢</a> · <a href = "General/Hall_of_Fame">名人堂</a> · <a href ="General/recurit"> 招贤纳士 </a>  · <a href = "General/alumni_share">校友寄言</a>
 ---
 ## 即将更新
 BIS Navigator将在6月更新以服务2024 Fall入学新生。
