@@ -18,11 +18,11 @@
     "reveal.js": "^5.0.5",
     "vue": "^3.4.21",
     "vuepress": "2.0.0-rc.8",
-    "vuepress-plugin-components": "2.0.0-rc.27",
-    "vuepress-plugin-search-pro": "2.0.0-rc.27",
-    "vuepress-theme-hope": "2.0.0-rc.27"
+    "vuepress-plugin-components": "2.0.0-rc.30",
+    "vuepress-plugin-search-pro": "2.0.0-rc.30",
+    "vuepress-theme-hope": "2.0.0-rc.30"
   },
   "dependencies": {
-    "@vuepress/plugin-pwa": "2.0.0-rc.18"
+    "@vuepress/plugin-pwa": "2.0.0-rc.19"
   }
 }
