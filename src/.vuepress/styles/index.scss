@@ -96,25 +96,3 @@
     font-weight: 700;
     font-size: 1.125rem;
 }
-
-.vp-card {
-    vertical-align: middle;
-    transform: perspective(1px) translateZ(0);
-    transition-duration: .3s;
-    transition-property: box-shadow, transform
-}
-
-.vp-card:hover {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-    transform: scale(1.01);
-}
-
-.vp-card-logo {
-    width: 4em;
-    height: 5em;
-    border-radius: 0
-}
-
-.vp-card-title {
-    font-weight: 700;
-}

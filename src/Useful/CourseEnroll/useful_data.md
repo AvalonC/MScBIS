@@ -249,7 +249,7 @@ If a course or section which is marked "only for College: CB" and “not for Maj
 
 ## D. 选择网选课程流程（2023年6月16日版）
 
-来源：[Web Add/Drop](https://www.cityu.edu.hk/arro/content.asp?cid=155)
+来源：[Web Add/Drop](https://www.cityu.edu.hk/sgs/student/tpg/coursereg/web)
 
 :::warning 仅提供英语版本
 此文档出于避免误导目的，不提供中文版本。
@@ -302,7 +302,7 @@ Web activity will be continuously monitored during the add/drop period to safegu
 
 ## E. 选择非网选课程流程（2023年6月16日版）
 
-来源：[Non-Web Add/Drop](https://www.cityu.edu.hk/arro/content.asp?cid=156)
+来源：[Non-Web Add/Drop](https://www.cityu.edu.hk/sgs/student/tpg/coursereg/non-web)
 
 :::warning 仅提供英语版本
 此文档出于避免误导目的，不提供中文版本。
