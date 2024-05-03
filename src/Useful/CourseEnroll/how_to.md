@@ -38,9 +38,7 @@ next: false
 
 --
 
-你可以经常刷新 [Academic Regulations and Records Office(ARRO)](https://www.cityu.edu.hk/arro/) 网站
-
-点击<font color=#b01861>Important Dates</font>来查阅ARRO已经决定好的重要时间节点。
+你可以通过周亦卿研究生院的[<font color=#b01861>Important Dates</font>](https://www.cityu.edu.hk/sgs/student/tpg/importantdates)页面来查阅时间节点
 
 --
 
@@ -192,12 +190,12 @@ _例如，想查阅EF5042，则应当将Offering Academic Unit 改为 Economics 
 
 ### 1. 了解何时选课
 
-   不知道时间是无法做好准备的！你可以经常刷新 [Academic Regulations and Records Office(ARRO)](https://www.cityu.edu.hk/arro/)网站，点击<font color=#b01861>Important Dates</font>来查阅ARRO已经决定好的重要时间节点。
+   不知道时间是无法做好准备的！你可以通过周亦卿研究生院的[<font color=#b01861>Important Dates</font>](https://www.cityu.edu.hk/sgs/student/tpg/importantdates)页面来查阅时间节点
 
    ::: warning 大学差异
    请注意，海外大学 **不会** 时刻提醒你各种截止时间，重要的信息需要自己收集与确认。
    :::
-   ![ARRO官网](/ARRO_1.png)
+   ![ARRO官网](/SGS1.png)
 
    一般的，大学会告知你:
 
@@ -208,8 +206,6 @@ _例如，想查阅EF5042，则应当将Offering Academic Unit 改为 Economics 
    5. 其他重要时间
 
    这些时间往往并不一致，请对公布的所有事宜时间做到心中有数
-
-   ![ARRO公布时间示例](/ARRO_2.png)
 
 ### 2. 规划课程
 
