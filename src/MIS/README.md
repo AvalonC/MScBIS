@@ -11,7 +11,7 @@ category:
 <VPBanner
   title = "谢俊霖（Prof. SIA Choon Ling）"
   content = "Professor"
-  logo = "https://www.cb.cityu.edu.hk/portfolio/photos/xiscl.JPG.pagespeed.ic.DHIQdyaYha.webp"
+  logo = "https://www.cb.cityu.edu.hk/portfolio/photos/iscl.JPG"
   :actions = '[  
         {
             text: "详细信息",

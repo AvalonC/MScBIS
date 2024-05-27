@@ -13,7 +13,7 @@ next: false
 <VPBanner
   title = "马健(Prof. MA Jian)"
   content = "Professor"
-  logo = "https://www.cb.cityu.edu.hk/portfolio/photos/xisjian.jpg.pagespeed.ic.6z5I8vEWtS.webp"
+  logo = "https://www.cb.cityu.edu.hk/portfolio/photos/isjian.jpg"
   :actions = '[  
         {
             text: "详细信息",

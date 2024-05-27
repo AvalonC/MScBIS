@@ -4,7 +4,7 @@ icon: home
 heroImage: /logo.png
 heroFullScreen: true
 bgImage: /bg1.svg
-bgImageDark: https://i.niupic.com/images/2023/10/28/bYTs.png
+bgImageDark: /bg1.svg
 bgImageStyle:
   background-attachment: fixed
   opacity: 0.5
