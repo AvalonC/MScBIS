@@ -9,6 +9,7 @@ export default hopeTheme({
     name: "BIS Navigator",
   },
 
+
   iconAssets: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css",
 
   logo: "/logo.png",
@@ -49,13 +50,18 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
-    // You should generate and use your own comment service
+    // You should generate and use your own comment service    
     comment: {
       provider: "Giscus",
       repo: "AvalonC/MScBIS",
       repoId: "R_kgDOJuLGmQ",
       category: "Announcements",
       categoryId: "DIC_kwDOJuLGmc4CbYdR",
+    },
+
+    copyright:{
+      global:true,
+      disableSelection:true,
     },
 
     components: {
@@ -120,6 +126,7 @@ export default hopeTheme({
           },
         },
       ],
+      tasklist:true,
       sub: false,
       sup: true,
       tabs: true,

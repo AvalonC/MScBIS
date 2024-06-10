@@ -8,7 +8,6 @@ export default defineUserConfig({
   description: "BIS Navigator",
 
   theme,
-
   // Enable it with pwa
   shouldPrefetch: false,
 });

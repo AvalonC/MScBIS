@@ -47,7 +47,7 @@ copyright: false
 footer: 此站为民间站点<br/> <a href = "General/about">关于本站</a> · <a href ="General/appreciate">致谢</a> · <a href = "General/Hall_of_Fame">名人堂</a> · <a href ="General/recurit"> 招贤纳士 </a>  · <a href = "General/alumni_share">校友寄言</a>
 ---
 ## 即将更新
-BIS Navigator将在6月更新以服务2024 Fall入学新生。
+BIS Navigator将在学校更新2024/25课程信息后进行更新以服务2024 Fall入学新生。
 
 [点此](./General/changedata.md)了解BIS项目将会产生的一些新变化以免造成不必要的误解。
 

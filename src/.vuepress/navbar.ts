@@ -43,7 +43,7 @@ export default navbar([
           { text: "选课基本流程", icon: "bi-bar-chart-steps", link: "how_to" },
           { text: "流程有用信息", icon: "bi-info-circle-fill", link: "useful_data" },
           { text: "选课数量安排", icon: "bi-calendar-week-fill", link: "time_arrangement" },
-          {text:"CityU Schedule Planner下载", icon:"bi-cloud-download-fill", link:"extension"}
+          { text: "CityU Schedule Planner下载", icon: "bi-cloud-download-fill", link: "extension" }
         ]
       },
       {
@@ -51,6 +51,7 @@ export default navbar([
         prefix: "Learning/",
         children: [
           { text: "BIS资源网盘", icon: "bi-hdd-network-fill", link: "BIS_resource" },
+          { text: "留服认证", icon: "bi-file-earmark-break-fill", link: "cscse_reco" },
           { text: "转换专业认证", icon: "bi-person-lines-fill", link: "trans_mse_tutorial" }
         ]
       }
