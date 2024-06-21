@@ -43,6 +43,7 @@ export default navbar([
           { text: "选课基本流程", icon: "bi-bar-chart-steps", link: "how_to" },
           { text: "流程有用信息", icon: "bi-info-circle-fill", link: "useful_data" },
           { text: "选课数量安排", icon: "bi-calendar-week-fill", link: "time_arrangement" },
+          { text: "研究生交换项目（PGCE）", icon: "bi-send-check-fill", link: "pgce" },
           { text: "CityU Schedule Planner下载", icon: "bi-cloud-download-fill", link: "extension" }
         ]
       },
