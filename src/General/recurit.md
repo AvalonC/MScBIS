@@ -49,6 +49,6 @@ _不过很抱歉，没有钱拿🙇 （当然，也不用花一分钱）_
 
 ## Ready? Fight
 
-请在简历与邮件
+请在简历与邮件表明投递方向
 
 [感兴趣的学弟学妹，请附个人CV，点此进行投递~](mailto:WANG%20Guanzhang<Guanzhang.WANG@my.cityu.edu.hk>?subject=The%20BIS%20Navigator%20Application%202024)
