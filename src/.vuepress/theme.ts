@@ -16,7 +16,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "AvalonC/BIS_Navigator_V2",
+  repo: "AvalonC/MscBIS",
 
   docsDir: "src",
 
