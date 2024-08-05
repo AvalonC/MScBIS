@@ -217,7 +217,7 @@ _例如，想查阅EF5042，则应当将Offering Academic Unit 改为 Economics 
    2. 点击 "**Course Registration**"
    ![AIMS Page](/AIMS_1.png)
 
-   3. 选择 "**<font color=#b01861>选择 "Web Add/Drop"</font>**"选项
+   3. 选择 "**<font color=#b01861>Web Add/Drop</font>**"选项
    ![AIMS Page](/AIMS_2.png)
 
    4. 在新页面右上角，选择 "**<font color=#b01861>Master Class Schedule</font>**"。
