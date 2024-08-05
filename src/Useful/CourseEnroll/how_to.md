@@ -100,10 +100,13 @@ next: false
 
 5. 在新页面中，选择你想查阅的学期，选择完毕后点击"**Submit Term**"。
 ![AIMS Page](/MScBIS/AIMS_4.png)
+--
 
-6. 在新页面中，你将需要配置相当多的选项来选课，这是AIMS提供的多元化检索服务。BIS是一个Postgraduate Degree Programme, 同时大部分课程均是以IS(Information Systems)开头，因此，只需要按照图片配置后点击"Search Class"就能查看到大部分课程。
+6.在新页面中，你将需要配置相当多的选项来选课，这是AIMS提供的多元化检索服务。BIS是一个Postgraduate Degree Programme, 同时大部分课程均是以IS(Information Systems)开头，因此，只需要按照图片配置后点击"Search Class"就能查看到大部分课程。
 
-7. 如图显示的就是所选学期内由资讯系统学部提供的课程了
+--
+
+6. 如图显示的就是所选学期内由资讯系统学部提供的课程了
 
 --
 
@@ -115,7 +118,7 @@ BIS是一个Postgraduate Degree Programme
 
 --
 
-6. 现在你可以查看你所选定学期内有哪些课程是由资讯系统学部提供的了。
+7. 现在你可以查看你所选定学期内有哪些课程是由资讯系统学部提供的了。
 ![AIMS Page](/MScBIS/AIMS_5.png)
 
 --
