@@ -214,7 +214,7 @@ _例如，想查阅EF5042，则应当将Offering Academic Unit 改为 Economics 
 
    1. 访问[CityU AIMS](https://banweb.cityu.edu.hk), 并以你的EID登录
 
-   2. 点击 "**Course Registration**"
+   2. 点击 "**<font color=#b01861>Course Registration**"
    ![AIMS Page](/AIMS_1.png)
 
    3. 选择 "**<font color=#b01861>Web Add/Drop</font>**"选项
