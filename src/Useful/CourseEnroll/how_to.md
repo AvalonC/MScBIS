@@ -10,9 +10,9 @@ next: false
 
 ## 前言
 
-这篇文章将会 _简单的_ 告诉你如何在CityU选课
+本文将会阐述如何在CityU *不走弯路* 的进行选课
 
-请注意，你应当时常关注来自项目，学系，学院，学校的邮件来确认是否发生了最新的变化（养成每天定时看邮箱的好习惯！！）
+由于课程细节会进行 *无预告* 更新，因此你需要时常查阅官网并关注来自项目、学系、学院、学校的邮箱来确认是否发生了最新的变化（[cityU邮箱地址](https://avalonc.github.io/MScBIS/Tech/it_services.html)）
 
 ## 幻灯片讲解
 
@@ -82,24 +82,28 @@ next: false
 
 --
 
-2. 找到 Find a Page搜索框，输入 **"<font color=#b01861>Master</font>"** 一词，点击"Go"按钮或回车
+2. 点击 "**Course Registration**"
 
 ![AIMS](/MScBIS/AIMS_1.png)
 
 --
 
-3. 在搜索结果页面，选择 "**<font color=#b01861>Master Class Schedule</font>**"选项
+3. 选择 "**Web Add/Drop**"
 ![AIMS Page](/MScBIS/AIMS_2.png)
 
 --
 
-4. 在新页面中，选择你想查阅的学期，然后点击"**<font color=#b01861>Submit Term</font>**"。(_本文以2022/23 Sem A为例_)
+4. 在新页面右上角，选择 "**Master Class Schedule**"选项
 ![AIMS Page](/MScBIS/AIMS_3.png)
 
 --
 
-5. 在新页面中，你将需要配置相当多的选项来选课，这是AIMS提供的多元化检索服务。
+5. 在新页面中，选择你想查阅的学期，选择完毕后点击"**Submit Term**"。
 ![AIMS Page](/MScBIS/AIMS_4.png)
+
+6. 在新页面中，你将需要配置相当多的选项来选课，这是AIMS提供的多元化检索服务。BIS是一个Postgraduate Degree Programme, 同时大部分课程均是以IS(Information Systems)开头，因此，只需要按照图片配置后点击"Search Class"就能查看到大部分课程。
+
+7. 如图显示的就是所选学期内由资讯系统学部提供的课程了
 
 --
 
