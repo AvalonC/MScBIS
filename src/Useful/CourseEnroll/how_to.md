@@ -102,23 +102,13 @@ next: false
 ![AIMS Page](/MScBIS/AIMS_4.png)
 --
 
-6.在新页面中，你将需要配置相当多的选项来选课，这是AIMS提供的多元化检索服务。BIS是一个Postgraduate Degree Programme, 同时大部分课程均是以IS(Information Systems)开头，因此，只需要按照图片配置后点击"Search Class"就能查看到大部分课程。
+6. 在新页面中，你将需要配置相当多的选项来选课，这是AIMS提供的多元化检索服务。BIS是一个Postgraduate Degree Programme, 同时大部分课程均是以IS(Information Systems)开头，因此，只需要按照图片配置后点击"Search Class"就能查看到大部分课程。
 
 --
 
-6. 如图显示的就是所选学期内由资讯系统学部提供的课程了
+7. 如图显示的就是所选学期内由资讯系统学部提供的课程了
 
 --
-
-BIS是一个Postgraduate Degree Programme
-
-同时大部分课程均是以IS(Information Systems)开头
-
-因此，只需要上一页如此配置，就能查看到大部分课程。
-
---
-
-7. 现在你可以查看你所选定学期内有哪些课程是由资讯系统学部提供的了。
 ![AIMS Page](/MScBIS/AIMS_5.png)
 
 --
@@ -200,7 +190,7 @@ _例如，想查阅EF5042，则应当将Offering Academic Unit 改为 Economics 
    不知道时间是无法做好准备的！你可以通过周亦卿研究生院的[<font color=#b01861>Important Dates</font>](https://www.cityu.edu.hk/sgs/student/tpg/importantdates)页面来查阅时间节点
 
    ::: warning 大学差异
-   请注意，海外大学 **不会** 时刻提醒你各种截止时间，重要的信息需要自己收集与确认。
+   请注意，海外大学<u>不会</u>时刻提醒你各种截止时间，本着对自己的负责的原则，<u>重要的信息需要自己采集。</u>
    :::
    ![ARRO官网](/SGS1.png)
 
@@ -224,20 +214,22 @@ _例如，想查阅EF5042，则应当将Offering Academic Unit 改为 Economics 
 
    1. 访问[CityU AIMS](https://banweb.cityu.edu.hk), 并以你的EID登录
 
-   2. 找到 Find a Page搜索框，输入 **"<font color=#b01861>Master</font>"** 一词，点击"Go"按钮或回车
+   2. 点击 "**Course Registration**"
    ![AIMS Page](/AIMS_1.png)
 
-   3. 在搜索结果页面，选择 "**<font color=#b01861>Master Class Schedule</font>**"选项
+   3. 选择 "**<font color=#b01861>选择 "Web Add/Drop"</font>**"选项
    ![AIMS Page](/AIMS_2.png)
 
-   4. 在新页面中，选择你想查阅的学期，然后点击"**<font color=#b01861>Submit Term</font>**"。(_本文以2022/23 Sem A为例_)
+   4. 在新页面右上角，选择 "**<font color=#b01861>Master Class Schedule</font>**"。
    ![AIMS Page](/AIMS_3.png)
 
-   5. 在新页面中，你将需要配置相当多的选项来选课，这是AIMS提供的多元化检索服务。 BIS是一个Postgraduate Degree Programme, 同时大部分课程均是以IS(Information Systems)开头，因此，只需要按照图片如此配置，就能查看到大部分课程。
+   5. 在新页面中，选择你想查阅的学期，选择完毕后点击"**<font color=#b01861>Submit Term</font>**"
    ![AIMS Page](/AIMS_4.png)
 
-   6. 现在你可以查看你所选定学期内有哪些课程是由资讯系统学部提供的了。
+   6. 在新页面中，你将需要配置相当多的选项来选课，这是AIMS提供的多元化检索服务。BIS是一个Postgraduate Degree Programme, 同时大部分课程均是以IS(Information Systems)开头，因此，只需要按照图片配置后点击"Search Class"就能查看到大部分课程。
    ![AIMS Page](/AIMS_5.png)
+
+   7. 如图显示的就是所选学期内由资讯系统学部提供的课程了
 
 :::tip 注意学部
 特别是FIT的同学一定要注意，FIT有两门必修课程来自不同学部，分别是 [AC5511](/FIT/Core_Course/AC5511.md)（由会计学部提供）与[EF5042](/FIT/Core_Course/EF5042.md)（由经济与金融学部提供），如果想要查看这两门课的开放安排，则应当将Offering Academic Unit这一选项自Information Systems更改为其他合理选项。
