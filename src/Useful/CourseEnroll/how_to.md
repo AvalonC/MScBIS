@@ -12,7 +12,7 @@ next: false
 
 本文将会阐述如何在CityU *不走弯路* 的进行选课
 
-由于课程细节会进行 *无预告* 更新，因此你需要时常查阅官网并关注来自项目、学系、学院、学校的邮箱来确认是否发生了最新的变化（[cityU邮箱地址](https://avalonc.github.io/MScBIS/Tech/it_services.html)）
+由于课程细节会进行 *无预告* 更新，因此你需要时常查阅官网并关注来自项目、学系、学院、学校的邮箱来确认是否发生了最新的变化（[CityU邮箱地址](/Tech/it_services.md)）
 
 ## 幻灯片讲解
 
@@ -214,7 +214,7 @@ _例如，想查阅EF5042，则应当将Offering Academic Unit 改为 Economics 
 
    1. 访问[CityU AIMS](https://banweb.cityu.edu.hk), 并以你的EID登录
 
-   2. 点击 "**<font color=#b01861>Course Registration**"
+   2. 点击 "**<font color=#b01861>Course Registration</font>**"
    ![AIMS Page](/AIMS_1.png)
 
    3. 选择 "**<font color=#b01861>Web Add/Drop</font>**"选项
@@ -230,6 +230,7 @@ _例如，想查阅EF5042，则应当将Offering Academic Unit 改为 Economics 
    ![AIMS Page](/AIMS_5.png)
 
    7. 如图显示的就是所选学期内由资讯系统学部提供的课程了
+   ![AIMS Page](/AIMS_6.png)
 
 :::tip 注意学部
 特别是FIT的同学一定要注意，FIT有两门必修课程来自不同学部，分别是 [AC5511](/FIT/Core_Course/AC5511.md)（由会计学部提供）与[EF5042](/FIT/Core_Course/EF5042.md)（由经济与金融学部提供），如果想要查看这两门课的开放安排，则应当将Offering Academic Unit这一选项自Information Systems更改为其他合理选项。
