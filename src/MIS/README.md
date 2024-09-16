@@ -9,13 +9,13 @@ category:
 **分流领导：**
 
 <VPBanner
-  title = "谢俊霖（Prof. SIA Choon Ling）"
+  title = "廖少毅(Prof. LIAO Shaoyi) 'Stephen'"
   content = "Professor"
-  logo = "https://www.cb.cityu.edu.hk/portfolio/photos/iscl.JPG"
-  :actions = '[  
+  logo = "https://www.cb.cityu.edu.hk/portfolio/photos/issliao.jpg"
+  :actions = '[
         {
             text: "详细信息",
-            link: "https://www.cb.cityu.edu.hk/People-and-Research/People/People-Details?eid=iscl"
+            link: "https://www.cb.cityu.edu.hk/People-and-Research/People/People-Details?eid=issliao"
         },
     ]'
 />
@@ -24,7 +24,7 @@ category:
 
 管理智能系统（MIS）专业旨在培养学生在商业和前沿信息系统的核心领域的能力，这些领域是当代信息社会的基础，因此，毕业生可以在需要高级商业知识和IT问题解决能力的专业岗位上表现出色。
 
-管理智能系统方向提供给非IT背景的申请者，重点培养他们在评估前沿IT、协调IT支持的商业举措和管理商业信息系统运作方面的能力，以满足组织的商业需求。
+管理智能系统方向提供给非IT背景的申请者，重点培养他们在评估前沿IT、协调IT支持的商业举措和管理商业信息系统运作方面的能力，以满足组织的商业需求。随着人工智能的发展趋势，此类信息系统越来越具有更强的智能性。
 
 ## 必修课程
 
