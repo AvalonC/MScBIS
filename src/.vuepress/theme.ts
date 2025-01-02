@@ -9,7 +9,7 @@ export default hopeTheme({
     name: "BIS Navigator",
   },
 
-  favicon:"/favicon.ico",
+  favicon: "/favicon.ico",
 
 
   iconAssets: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css",
@@ -50,6 +50,51 @@ export default hopeTheme({
     sidebarDisplay: "none"
   },
 
+  // All features are enabled for demo, only preserve features you need here
+  markdown: {
+    align: true,
+    attrs: true,
+    chartjs: false,
+    codeTabs: true,
+    demo: false,
+    echarts: false,
+    figure: true,
+    flowchart: false,
+    gfm: true,
+    imgLazyload: true,
+    imgSize: true,
+    include: true,
+    math: false,
+    mark: false,
+    mermaid: true,
+    playground: {
+      presets: ["ts", "vue"],
+    },
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    tasklist: true,
+    sub: false,
+    sup: true,
+    tabs: true,
+    vPre: false,
+    vuePlayground: false,
+    revealjs:{
+      plugins: ["zoom", "highlight", "search"],
+      themes: ["sky"],
+    }
+  },
+
   plugins: {
     blog: true,
     // You should generate and use your own comment service    
@@ -61,9 +106,9 @@ export default hopeTheme({
       categoryId: "DIC_kwDOJuLGmc4CbYdR",
     },
 
-    copyright:{
-      global:true,
-      disableSelection:true,
+    copyright: {
+      global: true,
+      disableSelection: true,
     },
 
     components: {
@@ -91,51 +136,8 @@ export default hopeTheme({
       ],
     },
 
-    // All features are enabled for demo, only preserve features you need here
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      chart: false,
-      codetabs: true,
-      demo: false,
-      echarts: false,
-      figure: true,
-      flowchart: false,
-      gfm: true,
-      imgLazyload: true,
-      imgSize: true,
-      include: true,
-      katex: false,
-      mark: false,
-      mermaid: true,
-      revealJs: {
-        plugins: ["zoom", "highlight", "search"],
-        themes: ["sky"]
-      },
-      playground: {
-        presets: ["ts", "vue"],
-      },
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      tasklist:true,
-      sub: false,
-      sup: true,
-      tabs: true,
-      vPre: false,
-      vuePlayground: false,
-    },
-    searchPro: true,
+
+    slimsearch: true,
     // uncomment these if you want a pwa
     // pwa: {
     //   favicon: "/favicon.ico",
