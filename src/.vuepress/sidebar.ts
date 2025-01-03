@@ -35,6 +35,11 @@ export default sidebar({
   "/elective/": [
     "/elective/",
     {
+      text: "人工智能专题",
+      icon: "bi-stars",
+      children: ["IS5/IS5542","IS6/IS6423","IS6/IS6620"]
+    },
+    {
       text: "较易选修",
       icon: "bi-file-post",
       prefix: "IS5/",
