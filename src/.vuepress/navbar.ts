@@ -68,9 +68,4 @@ export default navbar([
       { text: "在线综合平台CityU Portal", icon: "bi-link", link: "CityU_Portal" }
     ]
   }
-  // {
-  //   text: "V2 文档",
-  //   icon: "book",
-  //   link: "https://theme-hope.vuejs.press/zh/",
-  // },
 ]);
