@@ -12,8 +12,6 @@ export default hopeTheme({
   favicon: "/favicon.ico",
 
 
-  iconAssets: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css",
-
   logo: "/logo.png",
 
   repo: "AvalonC/MscBIS",
@@ -96,6 +94,9 @@ export default hopeTheme({
   },
 
   plugins: {
+    icon:{ 
+      assets: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    },
     blog: true,
     // You should generate and use your own comment service    
     comment: {
