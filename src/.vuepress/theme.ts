@@ -45,7 +45,6 @@ export default hopeTheme({
 
   blog: {
     timeline: "暂无更新",
-    sidebarDisplay: "none"
   },
 
   // All features are enabled for demo, only preserve features you need here
