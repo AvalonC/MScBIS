@@ -15,34 +15,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          # 选择要使用的 pnpm 版本
-          version: 8
-          # 使用 pnpm 安装依赖
-          run_install: true
+        uses: pnpm/action-setup@v4
 
       - name: 设置 Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 22
           cache: pnpm
 
       - name: 安装依赖
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: 构建文档
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm docs:build
-          > src/.vuepress/dist/.nojekyll
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
