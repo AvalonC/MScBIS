@@ -14,7 +14,7 @@ next: false
 
 那么点进来的你，有这个兴趣吗？
 
-__<font color=#b01861>诚挚邀请BIS 2024 Fall的你，加入维护BIS Navigator的队伍！</font>__
+__<font color=#b01861>诚挚邀请BIS 2025 Fall的你，加入维护BIS Navigator的队伍！</font>__
 
 我们希望你：
 
@@ -45,10 +45,10 @@ _不过很抱歉，没有钱拿🙇 （当然，也不用花一分钱）_
 - 优先招募有JS/Vue开发经验人员
 - 如有**Chrome插件开发项目/成熟的个人站点**并考察通过可免除笔试及第一轮面试
 
-以上所有成员必须为BIS Programme学生（不限制分流），均需通过**一轮笔试及二轮面试**。面试将以**简单**的连麦沟通进行，以确定面试人具备必需的沟通理解能力。
+以上所有成员必须为BIS Programme学生（不限制分流），均需通过**一轮笔试及一轮面试**。面试将以**简单**的连麦沟通进行，以确定面试人具备必需的沟通理解能力。
 
 ## Ready? Fight
 
 请在简历与邮件表明投递方向
 
-[感兴趣的学弟学妹，请附个人CV，点此进行投递~](mailto:WANG%20Guanzhang<Guanzhang.WANG@my.cityu.edu.hk>?subject=The%20BIS%20Navigator%20Application%202024)
+[感兴趣的学弟学妹，请附个人CV，点此进行投递~](mailto:WANG%20Guanzhang<Guanzhang.WANG@my.cityu.edu.hk>?subject=The%20BIS%20Navigator%20Application%202025)
