@@ -1,7 +1,6 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-
   "/MIS/": [
     "/MIS/",
     {
@@ -37,7 +36,7 @@ export default sidebar({
     {
       text: "人工智能专题",
       icon: "bi-stars",
-      children: ["IS5/IS5542","IS6/IS6423","IS6/IS6620"]
+      children: ["IS6/IS6423","IS6/IS6620","/FIT/Core_Course/IS5542"]
     },
     {
       text: "较易选修",
