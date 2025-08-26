@@ -38,7 +38,7 @@ FIT分流课程提供给具有中等IT/IS或金融/会计知识的申请人（�
 | [IS5540](Core_Course/IS5540.md) | Project Management and Quality Assurance                   |
 | [IS5740](Core_Course/IS5740.md) | Management Support and Business Intelligence Systems       |
 | [IS6400](Core_Course/IS6400.md) | Business Data Analytics                                    |
-| [IS6523](Core_Course/IS6523.md) | Information Systems Infrastructure and Security Management |
+| [IS5542](Core_Course/IS5542.md) | Generative Artificial Intelligence for Business |
 | [EF5042](Core_Course/EF5042.md) | Corporate Finance                                          |
 
 ## 专属选修课程
