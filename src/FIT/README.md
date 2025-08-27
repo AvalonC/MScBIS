@@ -11,13 +11,13 @@ next: false
 **分流领导：**
 
 <VPBanner
-  title = "马健(Prof. MA Jian)"
-  content = "Professor"
-  logo = "https://www.cb.cityu.edu.hk/portfolio/photos/isjian.jpg"
+  title = "刘騫(Prof. LIU Ben) 'Ben'"
+  content = "Associate Professor"
+  logo = "https://www.cb.cityu.edu.hk/portfolio/photos/qianqliu.jpg"
   :actions = '[  
         {
             text: "详细信息",
-            link: "https://www.cb.cityu.edu.hk/People-and-Research/People/People-Details?eid=isjian"
+            link: "https://www.cb.cityu.edu.hk/People-and-Research/People/People-Details?eid=qianqliu"
         },
     ]'
 />
