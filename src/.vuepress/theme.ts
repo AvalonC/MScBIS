@@ -119,22 +119,22 @@ export default hopeTheme({
       disableSelection: true,
     },
 
-    notice: [
-        {
-          path: "/",
-          title: "🧭BIS Navigator 2025招募启动！",
-          content: "一同来建设更好平台！",
-          actions: [
-            {
-              text: "了解详情",
-              link: "/General/recurit.md",
-              type: "primary",
-            },
-          ],
-          confirm: true,
-          showOnce:false
-        }
-      ],
+    // notice: [
+    //     {
+    //       path: "/",
+    //       title: "🧭BIS Navigator 2025招募启动！",
+    //       content: "一同来建设更好平台！",
+    //       actions: [
+    //         {
+    //           text: "了解详情",
+    //           link: "/General/recurit.md",
+    //           type: "primary",
+    //         },
+    //       ],
+    //       confirm: true,
+    //       showOnce:false
+    //     }
+    //   ],
 
 
     slimsearch: true,
