@@ -23,10 +23,10 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          # 选择要使用的 pnpm 版本
-          version: 10
-          # 使用 pnpm 安装依赖
-          run_install: true
+          # 与 package.json 中声明的版本保持一致
+          version: 11.9.0
+          # 依赖在 Node.js 与缓存配置完成后统一安装
+          run_install: false
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
