@@ -60,6 +60,15 @@ MIS 学生须完成 15 学分选修课程。下列为 2026/27 Programme Catalogu
 | [IS6930](../elective/IS6/IS6930.md) | Management Consulting in Asia |
 | [IS6940C](../elective/IS6/IS6940C.md) | Information Technology Leadership Forum |
 
+## 已移出 MIS 分流的历史课程
+
+以下页面保留往届课程评价和资料，但这两门课均未列入 2026/27 MIS 培养方案的必修或选修课程池，不能作为当前 MIS 计划内选课依据；这不代表学校停止开设，实际开课仍以当期官方系统为准。
+
+| 编号 | 课程 | 此前归类 |
+| --- | --- | --- |
+| [IS5311](Core_Course/IS5311.md) | JAVA Programming for Business Applications | MIS 必修 |
+| [IS5540](Core_Course/IS5540.md) | Project Management and Quality Assurance | MIS 必修 |
+
 要开始浏览这些课程，可点击表格中的课程项目，或从左侧选单选择课程。
 
 如您正在使用移动设备，使用左上角的菜单键进行访问。

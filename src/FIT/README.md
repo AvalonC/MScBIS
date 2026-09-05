@@ -64,6 +64,15 @@ FIT 学生须完成 15 学分选修课程。下列为 2026/27 Programme Catalogu
 | [IS6940C](../elective/IS6/IS6940C.md) | Information Technology Leadership Forum |
 | [IS6941](FIT_Elective/IS6941.md) | Machine Learning and Social Media Analytics |
 
+## 已移出 FIT 分流的历史课程
+
+以下页面保留往届课程评价和资料。它们未列入 2026/27 FIT 培养方案的必修或选修课程池，但并非学校停开：两门课现列为 MIS 必修；实际开课仍以当期官方系统为准。
+
+| 编号 | 课程 | 此前归类 | 当前归类 |
+| --- | --- | --- | --- |
+| [IS5542](Core_Course/IS5542.md) | Generative Artificial Intelligence for Business | FIT 必修 | MIS 必修 |
+| [IS5740](Core_Course/IS5740.md) | Management Support and Business Intelligence Systems | FIT 必修 | MIS 必修 |
+
 要开始浏览这些课程，可点击表格中的课程项目，或从左侧选单选择课程。
 
 如您正在使用移动设备，使用左上角的菜单键进行访问。
