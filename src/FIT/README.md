@@ -30,25 +30,39 @@ FIT分流课程提供给具有中等IT/IS或金融/会计知识的申请人（�
 
 ## 必修课程
 
-自下列课程中，选择5门课程
+2026/27 培养方案要求从下列课程中修读 15 学分；培养方案课程池不等于当期实际开课，开课、名额与注册以 Master Class Schedule、AIMS 和项目通知为准。
 
 | 编号                | 课程                                                       |
 | ------------------- | ---------------------------------------------------------- |
 | [AC5511](Core_Course/AC5511.md) | Financial and Management Accounting                        |
-| [IS5540](Core_Course/IS5540.md) | Project Management and Quality Assurance                   |
-| [IS5740](Core_Course/IS5740.md) | Management Support and Business Intelligence Systems       |
-| [IS6400](Core_Course/IS6400.md) | Business Data Analytics                                    |
-| [IS5542](Core_Course/IS5542.md) | Generative Artificial Intelligence for Business |
 | [EF5042](Core_Course/EF5042.md) | Corporate Finance                                          |
+| [IS5540](Core_Course/IS5540.md) | Project Management and Quality Assurance                   |
+| [IS6200](../elective/IS6/IS6200.md) | Blockchain Technology and Business Applications |
+| [IS6400](Core_Course/IS6400.md) | Business Data Analytics                                    |
+| [IS6423](../elective/IS6/IS6423.md) | Artificial Intelligence for Business Applications |
 
-## 专属选修课程
+## 官方选修课程池
 
-以下课程是FIT方向专有的选修课，FIT学生选择这些选修，将不会侵占 `“经MSBIS课程负责人批准，学生还可以参加由商学院内各部门提供的两门选修课程，一门来自资讯系统学系，另一门来自商学院内的所有学系，包括会计系，经济与金融系，资讯系统学系，管理系，管理科学系和营销系”`这一特权。
-| 编号                | 课程                                   |
-| ------------------- | -------------------------------------- |
+FIT 学生须完成 15 学分选修课程。下列为 2026/27 Programme Catalogue 课程池：
+
+| 编号 | 课程 |
+| --- | --- |
+| [EF5052](FIT_Elective/EF5052.md) | Investments |
 | [IS5010](FIT_Elective/IS5010.md) | Introduction to Financial Technologies |
-| [EF5052](FIT_Elective/EF5052.md) | Investment                             |
-| [IS6941](FIT_Elective/IS6941.md) | Big Data & Social Media Analytics      |
+| [IS5238](../elective/IS5/IS5238.md) | Business Practice Internship |
+| [IS5314](../elective/IS5/IS5314.md) | eBusiness System Integration |
+| [IS5411](../MIS/Core_Course/IS5411.md) | Systems Analysis and Design（MIS 必修） |
+| [IS5413](../MIS/Core_Course/IS5413.md) | Database Management Systems（MIS 必修） |
+| [IS5743](../elective/IS5/IS5743.md) | Information Technology Based Business Transformation |
+| [IS5940](../elective/IS5/IS5940.md) | Innovation and Technology Entrepreneurship |
+| [IS6421](../elective/IS6/IS6421.md) | Human-Computer Interaction and Multimedia |
+| [IS6523](../elective/IS6/IS6523.md) | Information Systems Infrastructure and Security Management |
+| [IS6620](../elective/IS6/IS6620.md) | Large Language Model with Prompt Engineering for Business |
+| [IS6640](../elective/IS6/IS6640.md) | Information Systems Planning and Strategy |
+| [IS6912](../elective/IS6/IS6912.md) | Information Systems Project |
+| [IS6930](../elective/IS6/IS6930.md) | Management Consulting in Asia |
+| [IS6940C](../elective/IS6/IS6940C.md) | Information Technology Leadership Forum |
+| [IS6941](FIT_Elective/IS6941.md) | Machine Learning and Social Media Analytics |
 
 要开始浏览这些课程，可点击表格中的课程项目，或从左侧选单选择课程。
 

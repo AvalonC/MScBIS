@@ -28,23 +28,37 @@ category:
 
 ## 必修课程
 
-自下列课程中，选择5门课程
+2026/27 培养方案要求从下列课程中修读 15 学分；培养方案课程池不等于当期实际开课，开课、名额与注册以 Master Class Schedule、AIMS 和项目通知为准。
 
 | 编号                | 课程                                                       |
 | ------------------- | ---------------------------------------------------------- |
-| [IS5311](Core_Course/IS5311.md) | JAVA Programming for Business Applications                 |
 | [IS5312](Core_Course/IS5312.md) | Analytical Programming with Python                         |
 | [IS5313](Core_Course/IS5313.md) | Foundations of Information and Electronic Business Systems |
 | [IS5411](Core_Course/IS5411.md) | Systems Analysis and Design                                |
 | [IS5413](Core_Course/IS5413.md) | Database Management Systems                                |
-| [IS5540](Core_Course/IS5540.md) | Project Management and Quality Assurance                   |
+| [IS5542](../FIT/Core_Course/IS5542.md) | Generative Artificial Intelligence for Business |
+| [IS5740](../FIT/Core_Course/IS5740.md) | Management Support and Business Intelligence Systems |
 
-## 专属选修课程
+## 官方选修课程池
 
-以下课程是MIS方向专有的选修课，MIS学生选择这些选修，将不会侵占 `“经MSBIS课程负责人批准，学生还可以参加由商学院内各部门提供的两门选修课程，一门来自资讯系统学系，另一门来自商学院内的所有学系，包括会计系，经济与金融系，资讯系统学系，管理系，管理科学系和营销系”`这一特权。
-| 编号                | 课程               |
-| ------------------- | ------------------ |
+MIS 学生须完成 15 学分选修课程。下列为 2026/27 Programme Catalogue 课程池：
+
+| 编号 | 课程 |
+| --- | --- |
+| [IS5238](../elective/IS5/IS5238.md) | Business Practice Internship |
+| [IS5314](../elective/IS5/IS5314.md) | eBusiness System Integration |
+| [IS5743](../elective/IS5/IS5743.md) | Information Technology Based Business Transformation |
+| [IS5940](../elective/IS5/IS5940.md) | Innovation and Technology Entrepreneurship |
+| [IS6200](../elective/IS6/IS6200.md) | Blockchain Technology and Business Applications（FIT 必修） |
 | [IS6335](MIS_Elective/IS6335.md) | Data Visualization |
+| [IS6421](../elective/IS6/IS6421.md) | Human-Computer Interaction and Multimedia |
+| [IS6423](../elective/IS6/IS6423.md) | Artificial Intelligence for Business Applications（FIT 必修） |
+| [IS6523](../elective/IS6/IS6523.md) | Information Systems Infrastructure and Security Management |
+| [IS6620](../elective/IS6/IS6620.md) | Large Language Model with Prompt Engineering for Business |
+| [IS6640](../elective/IS6/IS6640.md) | Information Systems Planning and Strategy |
+| [IS6912](../elective/IS6/IS6912.md) | Information Systems Project |
+| [IS6930](../elective/IS6/IS6930.md) | Management Consulting in Asia |
+| [IS6940C](../elective/IS6/IS6940C.md) | Information Technology Leadership Forum |
 
 要开始浏览这些课程，可点击表格中的课程项目，或从左侧选单选择课程。
 

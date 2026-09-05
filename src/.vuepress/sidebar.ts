@@ -6,8 +6,14 @@ export default sidebar({
     {
       text: "必修课程",
       icon: "bi-file-earmark-check-fill",
-      prefix: "Core_Course/",
-      children: "structure"
+      children: [
+        "Core_Course/IS5312",
+        "Core_Course/IS5313",
+        "Core_Course/IS5411",
+        "Core_Course/IS5413",
+        "/FIT/Core_Course/IS5542",
+        "/FIT/Core_Course/IS5740",
+      ]
     },
     {
       text: "专属选修课程",
@@ -21,8 +27,14 @@ export default sidebar({
     {
       text: "必修课程",
       icon: "bi-file-earmark-check-fill",
-      prefix: "Core_Course/",
-      children: "structure"
+      children: [
+        "Core_Course/AC5511",
+        "Core_Course/EF5042",
+        "Core_Course/IS5540",
+        "/elective/IS6/IS6200",
+        "Core_Course/IS6400",
+        "/elective/IS6/IS6423",
+      ]
     },
     {
       text: "专属选修课程",
