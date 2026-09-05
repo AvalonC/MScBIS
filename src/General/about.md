@@ -33,3 +33,7 @@ Welcome to this site! I hope the data provided by this site is helpful!
 ## 联系方式
 
 [点此进行邮件联系，仅限CityU邮箱账户](mailto:Guanzhang.WANG@my.cityu.edu.hk)
+
+## 当前维护者（2026/27 学年）
+
+**DavidYang0429** 负责本站 2026/27 学年的课程资料核验与日常维护。若发现内容过期、链接失效或需要补充课程经验，可通过微信联系：`David_Y429`。

@@ -10,11 +10,18 @@ BIS Navigator 是面向香港城市大学 MSc Business Information Systems 学�
 
 ## 主要内容
 
-- MIS 与 FIT 专业方向及必修课程介绍；
-- 共享选修课池、课程评价与历届学习经验；
+- MIS 与 FIT 专业方向、2026/27 培养方案必修与选修课程池；
+- 共享选修课、跨分流课程归类、课程评价与历届学习经验；
+- 已移出某一分流的历史课程说明，避免把往届必修误作当前计划内课程；
 - 选课流程、课表规划和 CityU Schedule Planner；
 - Canvas、CityU Portal 与校内信息技术服务说明；
 - 基于 GitHub Discussions 的课程补充与社区讨论。
+
+## 课程信息维护边界
+
+课程池用于说明培养方案归类，不等于课程一定在当期开放。2026/27 更新已将 MIS 与 FIT 的必修、选修及跨分流课程分别标注；例如 IS5311 已移出 MIS 当前课程池，但这不代表学校停止开设该课。
+
+选课时请按以下优先级确认：Programme Catalogue → Master Class Schedule → AIMS → 项目与任课教师通知。历史课程页和学生评价仅供经验参考，不构成当前开课、教师、名额或考核安排的承诺。
 
 ## 技术基线
 
@@ -75,7 +82,6 @@ pnpm docs:build
 
 ```bash
 pnpm install --frozen-lockfile
-pnpm peers check
 pnpm docs:build
 git diff --check
 ```
