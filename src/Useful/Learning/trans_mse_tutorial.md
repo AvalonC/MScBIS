@@ -1,7 +1,7 @@
 ---
 title: 转换专业认证
-date: 2026-09-30
-contentUpdated: "2026-09-30T15:44:30+08:00"
+date: 2026-10-09
+contentUpdated: "2026-10-09T00:00:00+08:00"
 contentContributor: DavidY
 sidebar: false
 comment: false
@@ -11,11 +11,37 @@ next: false
 
 <script setup>
 import { withBase } from "vuepress/client";
+import { ref } from "vue";
+
+const materialsAccepted = ref(false);
+const hasExpandedNotice = ref(false);
+const downloadAttempted = ref(false);
+const noticeElement = ref(null);
+const noticeDetails = ref(null);
+
+function onNoticeToggle(event) {
+  if (event.target.open) hasExpandedNotice.value = true;
+}
+
+function onDownloadClick(event) {
+  if (materialsAccepted.value) return;
+  event.preventDefault();
+  downloadAttempted.value = true;
+  noticeElement.value?.scrollIntoView({
+    behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
+    block: "start",
+  });
+  noticeDetails.value?.querySelector("summary")?.focus({ preventScroll: true });
+}
 </script>
 
 :::: tabs
 
 @tab 认证成计算机科学与技术
+
+::: warning 阅读前提示
+本页为免费的个人经验分享，不保证认证结果或考公、考编报名资格。认证结果以留服中心审核为准，报考资格须向招录单位确认。下载参考资料前，请阅读并确认下方使用须知。
+:::
 
 <h2>2026年案例</h2>
 
@@ -37,14 +63,40 @@ import { withBase } from "vuepress/client";
 
 以下6份文件供需要申请复核的同学参考，保留原文件内容。点击“下载”即可保存，无需登录GitHub。Word文件可编辑，PDF文件作为培养方案参考。
 
+<section ref="noticeElement" class="cscse-notice" :class="{ 'cscse-notice-attention': downloadAttempted && !materialsAccepted }" aria-labelledby="cscse-notice-title">
+  <h3 id="cscse-notice-title">重要免责声明与使用须知</h3>
+  <p class="cscse-notice-intro">资料免费提供，仅供个人学习与参考。下载前，请阅读以下说明并确认使用条件。</p>
+  <details ref="noticeDetails" class="cscse-notice-details" @toggle="onNoticeToggle">
+    <summary>展开阅读完整声明（5项）</summary>
+    <div class="cscse-notice-body">
+      <h4>1. 认证结果的不确定性</h4>
+      <p>本教程分享个人经验，不构成认证结果的保证或承诺。政策、个人修课情况、专业表述、认证年份及个案审核情况均可能影响结果，案例不能保证您的学位被认证为“计算机科学与技术”。最终结果以教育部留学服务中心的官方审核为准。</p>
+      <h4>2. 考公、考编报名风险</h4>
+      <p>认证成功不代表自动取得公务员或事业单位岗位的报考资格。各招录单位对专业名称、专业代码及课程匹配度的要求不同，能否报名须另行向招录单位确认。资料提供者不承诺任何报考资格审核结果。</p>
+      <h4>3. 学校支持文件</h4>
+      <p>本计算机认证经验不包含学校支持文件，资料提供者不承诺学系或学校相关部门提供课程对比、专业等同等证明。请勿以本资料为依据要求学校必须出具相关证明。本条针对计算机认证参考资料，原管理科学与工程路径的历史证明信安排须另向学系确认。</p>
+      <h4>4. 信息与责任边界</h4>
+      <p>资料提供者已尽合理努力整理信息，但不保证其准确性、完整性、时效性或对个人申请的适用性。使用者应核对官方政策，并按实际学习经历整理材料，自行作出申请与报考决定。本声明不免除法律规定不得免除的责任。</p>
+      <h4>5. 使用与传播限制</h4>
+      <p>个人模板仅供本人学习、参考使用。未经相关权利人许可，不得转载、打包传播、二次售卖或用于商业盈利。欢迎分享本页链接。高校培养方案等第三方资料的使用，应遵循原权利人的相关要求。</p>
+    </div>
+  </details>
+  <label class="cscse-notice-confirm" :class="{ 'cscse-confirm-locked': !hasExpandedNotice }">
+    <input v-model="materialsAccepted" :disabled="!hasExpandedNotice" type="checkbox" aria-describedby="cscse-download-status" />
+    <span>我已阅读并同意以上资料使用须知</span>
+  </label>
+  <p id="cscse-download-status" class="cscse-download-status" role="status" aria-live="polite">{{ materialsAccepted ? "已确认，可以下载下方6份资料。" : !hasExpandedNotice ? "请先展开阅读完整声明，再勾选同意后下载。" : "请勾选同意使用须知后，再下载资料。" }}</p>
+  <p class="cscse-notice-version">声明更新于2026年10月9日</p>
+</section>
+
 | 附件 | 内容 | 文件 |
 | --- | --- | --- |
-| 1 | 留学服务认证复核申请模板，含案例截图 | <a :href="withBase('/downloads/cscse/2026/01-review-application-template.docx')" download="附件1、留学服务认证复核申请模板_开源版本.docx">下载 Word</a> |
-| 2 | 与内地高校计算机科学与技术专业课程对比说明 | <a :href="withBase('/downloads/cscse/2026/02-course-comparison.docx')" download="附件2、与内地高校计算机科学与技术专业课程对比说明（开源版本）.docx">下载 Word</a> |
-| 3 | 清华大学工程（计算机技术）硕士培养方案 | <a :href="withBase('/downloads/cscse/2026/03-tsinghua-computer-technology.pdf')" download="附件3、清华大学计算机技术硕士培养方案.pdf">下载 PDF</a> |
-| 4 | 南京大学计算机科学与技术硕士培养方案 | <a :href="withBase('/downloads/cscse/2026/04-nju-computer-science.pdf')" download="附件4、南京大学计算机科学与技术硕士培养方案.pdf">下载 PDF</a> |
-| 5 | 中国科学技术大学计算机科学与技术培养方案 | <a :href="withBase('/downloads/cscse/2026/05-ustc-computer-science.pdf')" download="附件5、中国科学技术大学计算机科学与技术培养方案.pdf">下载 PDF</a> |
-| 6 | 香港城市大学2026年BIS金融与智能科技方向招生介绍 | <a :href="withBase('/downloads/cscse/2026/06-cityu-bis-fit-programme.pdf')" download="附件6、香港城市大学商务资讯系统金融与智能科技方向介绍.pdf">下载 PDF</a> |
+| 1 | 留学服务认证复核申请模板，含案例截图 | <a :href="materialsAccepted ? withBase('/downloads/cscse/2026/01-review-application-template.docx') : '#cscse-notice-title'" @click="onDownloadClick" :class="{ 'cscse-download-pending': !materialsAccepted }" :title="materialsAccepted ? '下载资料' : '请先阅读并同意使用须知'" class="cscse-download-link" :download="materialsAccepted ? '附件1、留学服务认证复核申请模板_开源版本.docx' : undefined">下载 Word</a> |
+| 2 | 与内地高校计算机科学与技术专业课程对比说明 | <a :href="materialsAccepted ? withBase('/downloads/cscse/2026/02-course-comparison.docx') : '#cscse-notice-title'" @click="onDownloadClick" :class="{ 'cscse-download-pending': !materialsAccepted }" :title="materialsAccepted ? '下载资料' : '请先阅读并同意使用须知'" class="cscse-download-link" :download="materialsAccepted ? '附件2、与内地高校计算机科学与技术专业课程对比说明（开源版本）.docx' : undefined">下载 Word</a> |
+| 3 | 清华大学工程（计算机技术）硕士培养方案 | <a :href="materialsAccepted ? withBase('/downloads/cscse/2026/03-tsinghua-computer-technology.pdf') : '#cscse-notice-title'" @click="onDownloadClick" :class="{ 'cscse-download-pending': !materialsAccepted }" :title="materialsAccepted ? '下载资料' : '请先阅读并同意使用须知'" class="cscse-download-link" :download="materialsAccepted ? '附件3、清华大学计算机技术硕士培养方案.pdf' : undefined">下载 PDF</a> |
+| 4 | 南京大学计算机科学与技术硕士培养方案 | <a :href="materialsAccepted ? withBase('/downloads/cscse/2026/04-nju-computer-science.pdf') : '#cscse-notice-title'" @click="onDownloadClick" :class="{ 'cscse-download-pending': !materialsAccepted }" :title="materialsAccepted ? '下载资料' : '请先阅读并同意使用须知'" class="cscse-download-link" :download="materialsAccepted ? '附件4、南京大学计算机科学与技术硕士培养方案.pdf' : undefined">下载 PDF</a> |
+| 5 | 中国科学技术大学计算机科学与技术培养方案 | <a :href="materialsAccepted ? withBase('/downloads/cscse/2026/05-ustc-computer-science.pdf') : '#cscse-notice-title'" @click="onDownloadClick" :class="{ 'cscse-download-pending': !materialsAccepted }" :title="materialsAccepted ? '下载资料' : '请先阅读并同意使用须知'" class="cscse-download-link" :download="materialsAccepted ? '附件5、中国科学技术大学计算机科学与技术培养方案.pdf' : undefined">下载 PDF</a> |
+| 6 | 香港城市大学2026年BIS金融与智能科技方向招生介绍 | <a :href="materialsAccepted ? withBase('/downloads/cscse/2026/06-cityu-bis-fit-programme.pdf') : '#cscse-notice-title'" @click="onDownloadClick" :class="{ 'cscse-download-pending': !materialsAccepted }" :title="materialsAccepted ? '下载资料' : '请先阅读并同意使用须知'" class="cscse-download-link" :download="materialsAccepted ? '附件6、香港城市大学商务资讯系统金融与智能科技方向介绍.pdf' : undefined">下载 PDF</a> |
 
 ::: warning 按个人学习经历整理材料
 附件是参考样例，不能直接替代本人成绩单和课程资料。请替换姓名、编号、日期、实际修读课程、成绩和项目内容，并使用对应修读学年的官方课程说明。
@@ -181,3 +233,38 @@ Best Regards,
 最后，总结全文思想，表达恳请与谢意。
 
 ::::
+
+<style scoped>
+.cscse-notice {
+  scroll-margin-top: 5rem;
+  margin: 1.25rem 0;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid var(--vp-c-border, #d8dce3);
+  border-radius: 10px;
+  background: var(--vp-c-bg-soft, #f6f7f9);
+}
+.cscse-notice-attention { border-color: var(--vp-c-accent, #b15b12); }
+.cscse-confirm-locked { opacity: 0.6; cursor: not-allowed; }
+.cscse-notice h3 { margin: 0 0 0.65rem; }
+.cscse-notice-intro { margin: 0 0 0.75rem; }
+.cscse-notice-details summary {
+  padding: 0.5rem 0;
+  color: var(--vp-c-accent, #b15b12);
+  cursor: pointer;
+  font-weight: 600;
+}
+.cscse-notice-body h4 { margin: 1rem 0 0.35rem; }
+.cscse-notice-body p { margin: 0 0 0.75rem; }
+.cscse-notice-confirm {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+.cscse-notice-confirm input { flex: none; width: 1.1rem; height: 1.1rem; margin: 0.25rem 0 0; }
+.cscse-download-status { margin: 0.5rem 0; }
+.cscse-notice-version { margin: 0; font-size: 0.85rem; opacity: 0.7; }
+.cscse-download-link.cscse-download-pending { color: var(--vp-c-text-mute, #777); cursor: pointer; text-decoration: none; }
+</style>
